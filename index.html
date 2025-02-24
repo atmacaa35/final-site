@@ -136,22 +136,36 @@
       { name: '6.txt', color: 'orange' }
     ];
 
-document.getElementById('search').addEventListener('input', function(e) {
-    const start = this.selectionStart;
-    const end = this.selectionEnd;
-    const originalValue = this.value;
-    
-    this.value = processInput(originalValue);
-    
-    if (this.value === originalValue) {
+    let activeFilter = null; // Hangi dosyanın filtrelendiğini takip eder
+    let searchByMeaning = false; // Varsayılan olarak kelime arar
+
+    // Placeholder'ı güncelleyen fonksiyon
+    function updatePlaceholder() {
+  const searchInput = document.getElementById('search');
+  if (activeFilter) {
+    const fileName = activeFilter.replace('.txt', ''); // .txt uzantısını kaldır
+    searchInput.placeholder = `Arama yap (${fileName})...`;
+  } else {
+    searchInput.placeholder = "yaz buraya...";
+  }
+}
+
+    document.getElementById('search').addEventListener('input', function (e) {
+      const start = this.selectionStart;
+      const end = this.selectionEnd;
+      const originalValue = this.value;
+
+      this.value = processInput(originalValue);
+
+      if (this.value === originalValue) {
         this.setSelectionRange(start, end);
-    } else {
+      } else {
         const newPosition = Math.max(0, start - (originalValue.length - this.value.length));
         this.setSelectionRange(newPosition, newPosition);
-    }
-    
-    searchWord();
-});
+      }
+
+      searchWord();
+    });
 
     async function loadDictionary() {
       for (const file of files) {
@@ -160,7 +174,7 @@ document.getElementById('search').addEventListener('input', function(e) {
         text.split('\n').forEach(line => {
           let [word, meaning] = line.split(':');
           if (word && meaning) {
-            dictionary[word.trim()] = { meaning: meaning.trim(), color: file.color };
+            dictionary[word.trim()] = { meaning: meaning.trim(), color: file.color, file: file.name };
           }
         });
       }
@@ -190,8 +204,8 @@ document.getElementById('search').addEventListener('input', function(e) {
 
     function processInput(input) {
       return input.replace(/I/g, 'ı')
-                  .toLowerCase()
-                  .replace(/[^a-zçğıöşüėŋ]/g, '');
+        .toLowerCase()
+        .replace(/[^a-zçğıöşüėŋ]/g, '');
     }
 
     function updateGhostAsterisk() {
@@ -208,114 +222,45 @@ document.getElementById('search').addEventListener('input', function(e) {
     }
 
     function searchWord() {
-    const query = searchInput.value.toLowerCase();
-    results.innerHTML = '';
+      const query = searchInput.value.replace('*', '').toLowerCase().trim();
+      const results = document.getElementById('results');
+      results.innerHTML = '';
+      if (query === '') return;
 
-    if (query.trim() === '') return;
+      let count = 0;
+      Object.keys(dictionary).forEach(word => {
+        let searchField = searchByMeaning ? dictionary[word].meaning.toLowerCase() : word.toLowerCase();
+        if (searchField.includes(query) && count < 50) {
+          // Filtreleme aktifse ve bu kelime filtrelenen dosyadan değilse atla
+          if (activeFilter && dictionary[word].file !== activeFilter) return;
 
-    let count = 0;
-    Object.keys(dictionary).forEach(word => {
-        const meaning = dictionary[word].meaning.toLowerCase();
-        
-        // * aktifse anlamda, değilse kelimede arama yap
-        const searchTarget = asteriskActive ? meaning : word.toLowerCase();
-
-        if (searchTarget.includes(query) && count < 50) {
-            const li = document.createElement('li');
-            li.classList.add('word-item');
-            li.innerHTML = `
-                <span class='dot ${dictionary[word].color}'></span>
-                <span class='text-content'><b>${word}</b>: ${dictionary[word].meaning}</span>
-            `;
-            results.appendChild(li);
-            count++;
+          const li = document.createElement('li');
+          li.classList.add('word-item');
+          li.dataset.file = dictionary[word].file; // Hangi dosyadan geldiğini sakla
+          li.innerHTML = `
+            <span class='dot ${dictionary[word].color}'></span>
+            <span class='text-content'><b>${word}</b> ${dictionary[word].meaning}</span>
+          `;
+          results.appendChild(li);
+          count++;
         }
+      });
+    }
+
+    const ghostAsterisk = document.getElementById('ghost-asterisk');
+
+    // '*' işaretini takip eden event listener
+    searchInput.addEventListener('beforeinput', function (e) {
+      if (e.inputType === 'insertText' && e.data === '*') {
+        e.preventDefault();
+        searchByMeaning = !searchByMeaning;
+        ghostAsterisk.style.opacity = searchByMeaning ? '1' : '0.5';
+        searchWord();
+      }
     });
 
-
-    }
-
     searchInput.addEventListener('input', function (e) {
-    const value = this.value;
-    
-    if (value.includes('*')) {
-        this.value = value.replace(/\*/g, ''); // * işaretini input'tan sil
-        asteriskActive = !asteriskActive; // Durumu tersine çevir
-        ghostAsterisk.style.opacity = asteriskActive ? '1' : '0.5';
-        ghostAsterisk.style.display = 'block';
-        searchWord();
-    }
-});
-
-  let lastSelectionStart = 0;
-  let lastSelectionEnd = 0;
-
-  searchInput.addEventListener('beforeinput', function(e) {
-    lastSelectionStart = this.selectionStart;
-    lastSelectionEnd = this.selectionEnd;
-
-    if (e.inputType === 'insertText') {
-      const newValue = 
-        this.value.slice(0, this.selectionStart) + 
-        e.data + 
-        this.value.slice(this.selectionEnd);
-      const processed = processInput(newValue);
-      measureSpan.textContent = processed;
-      const textWidth = measureSpan.offsetWidth;
-      const maxWidth = searchInput.clientWidth - 20;
-      if (textWidth > maxWidth) {
-        e.preventDefault();
-      }
-    }
-  });
-
-  searchInput.addEventListener('input', function(e) {
-    const processed = processInput(this.value);
-    measureSpan.textContent = processed;
-    const textWidth = measureSpan.offsetWidth;
-    const maxWidth = searchInput.clientWidth - 20;
-
-    if (textWidth <= maxWidth) {
-      lastValidValue = processed;
-      this.value = processed;
-    } else {
-      this.value = lastValidValue;
-      this.setSelectionRange(lastSelectionStart, lastSelectionEnd);
-    }
-    updateGhostAsterisk();
-    searchWord();
-  });
-  searchInput.addEventListener('paste', function(e) {
-    e.preventDefault();
-    const pastedText = (e.clipboardData || window.clipboardData).getData('text');
-    const processedPaste = processInput(pastedText);
-    
-    const startPos = this.selectionStart;
-    const endPos = this.selectionEnd;
-    const newValue = 
-      this.value.slice(0, startPos) + 
-      processedPaste + 
-      this.value.slice(endPos);
-    const finalProcessed = processInput(newValue);
-    
-    measureSpan.textContent = finalProcessed;
-    const textWidth = measureSpan.offsetWidth;
-    const maxWidth = searchInput.clientWidth - 20;
-    if (textWidth <= maxWidth) {
-      this.value = finalProcessed;
-      lastValidValue = finalProcessed;
-      const newCursorPos = startPos + processedPaste.length;
-      this.setSelectionRange(newCursorPos, newCursorPos);
-    } else {
-      this.setSelectionRange(startPos, startPos);
-    }
-    updateGhostAsterisk();
-    searchWord();
-  });
-    searchInput.addEventListener('paste', function(e) {
-      e.preventDefault();
-      let pastedText = (e.clipboardData || window.clipboardData).getData('text');
-      let processed = processInput(pastedText);
+      let processed = processInput(this.value);
       measureSpan.textContent = processed;
       const textWidth = measureSpan.offsetWidth;
       const maxWidth = searchInput.clientWidth - 20;
@@ -328,20 +273,92 @@ document.getElementById('search').addEventListener('input', function(e) {
       updateGhostAsterisk();
       searchWord();
     });
-const ghostAsterisk = document.getElementById('ghost-asterisk');
-let asteriskActive = false;
 
-searchInput.addEventListener('keydown', function (e) {
-    if (e.key === '*') {
-        e.preventDefault();
-        asteriskActive = !asteriskActive;
-        ghostAsterisk.style.opacity = asteriskActive ? '1' : '0.5';
-        ghostAsterisk.style.display = 'block';
-        searchWord(); // Asterisk değiştiğinde sonuçları hemen güncelle
-    }
+    let lastSelectionStart = 0;
+    let lastSelectionEnd = 0;
+
+    searchInput.addEventListener('beforeinput', function (e) {
+      lastSelectionStart = this.selectionStart;
+      lastSelectionEnd = this.selectionEnd;
+
+      if (e.inputType === 'insertText') {
+        const newValue =
+          this.value.slice(0, this.selectionStart) +
+          e.data +
+          this.value.slice(this.selectionEnd);
+        const processed = processInput(newValue);
+        measureSpan.textContent = processed;
+        const textWidth = measureSpan.offsetWidth;
+        const maxWidth = searchInput.clientWidth - 20;
+        if (textWidth > maxWidth) {
+          e.preventDefault();
+        }
+      }
+    });
+
+    searchInput.addEventListener('input', function (e) {
+      const processed = processInput(this.value);
+      measureSpan.textContent = processed;
+      const textWidth = measureSpan.offsetWidth;
+      const maxWidth = searchInput.clientWidth - 20;
+
+      if (textWidth <= maxWidth) {
+        lastValidValue = processed;
+        this.value = processed;
+      } else {
+        this.value = lastValidValue;
+        this.setSelectionRange(lastSelectionStart, lastSelectionEnd);
+      }
+      updateGhostAsterisk();
+      searchWord();
+    });
+
+    searchInput.addEventListener('paste', function (e) {
+      e.preventDefault();
+      const pastedText = (e.clipboardData || window.clipboardData).getData('text');
+      const processedPaste = processInput(pastedText);
+
+      const startPos = this.selectionStart;
+      const endPos = this.selectionEnd;
+      const newValue =
+        this.value.slice(0, startPos) +
+        processedPaste +
+        this.value.slice(endPos);
+      const finalProcessed = processInput(newValue);
+
+      measureSpan.textContent = finalProcessed;
+      const textWidth = measureSpan.offsetWidth;
+      const maxWidth = searchInput.clientWidth - 20;
+      if (textWidth <= maxWidth) {
+        this.value = finalProcessed;
+        lastValidValue = finalProcessed;
+        const newCursorPos = startPos + processedPaste.length;
+        this.setSelectionRange(newCursorPos, newCursorPos);
+      } else {
+        this.setSelectionRange(startPos, startPos);
+      }
+      updateGhostAsterisk();
+      searchWord();
+    });
+
+    // Tıklama olayını dinle
+    document.getElementById('results').addEventListener('click', function (e) {
+  const li = e.target.closest('.word-item');
+  if (!li) return;
+
+  const file = li.dataset.file;
+  if (activeFilter === file) {
+    activeFilter = null; // Eğer zaten seçiliyse, filtreyi kaldır
+  } else {
+    activeFilter = file; // Yeni filtre uygula
+  }
+  
+  updatePlaceholder(); // Placeholder'ı güncelle
+  searchWord(); // Sonuçları yeniden yükle
 });
-searchInput.addEventListener('input', searchWord);
-loadDictionary();
+
+
+    loadDictionary();
   </script>
 </body>
 </html>
