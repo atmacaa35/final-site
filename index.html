@@ -3,14 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Öz Türkçe Söz Varlığı</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <title>Bitionary</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Poppins';
+      font-family: 'Gabarito';
+      user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
     }
     html, body {
       background-color: #121212;
@@ -21,9 +28,72 @@
       justify-content: center;
       height: 100vh;
       overflow: hidden;
+      position: relative;
     }
     ::selection {
       background: var(--selection-bg);
+    }
+    #filter-boxes-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 800px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #121212;
+  padding: 10px;
+  z-index: 1000;
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOutScale {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+}
+
+    .filter-box {
+      border: 0.7px solid #888;
+      color: white;
+      padding: 2px 6px;
+      font-size: 0.7rem;
+      display: inline-flex;
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+      align-items: center;
+      justify-content: space-between;
+      border-radius: 5px;
+      min-width: 30px;
+      transition: background-color 0.2s;
+      cursor: pointer;
+      animation: fadeInScale 0.3s ease-out;
+    }
+    .filter-box:hover {
+  background-color: #3a3e41;
+    }
+    .filter-box span.material-symbols-outlined {
+      margin-left: 5px;
+      font-size: 0.7rem;
+      outline: none;
     }
     .input-container {
       position: relative;
@@ -49,12 +119,10 @@
       top: 50%;
       left: 10px;
       transform: translateY(-50%);
-      pointer-events: none;
       color: white;
       opacity: 0.5;
       font-size: 1rem;
       display: none;
-      user-select: none;
     }
     .results-container {
       display: flex;
@@ -62,7 +130,6 @@
       width: 80%;
       max-width: 500px;
       position: relative;
-      user-select: none;
     }
     #results {
       flex: 1;
@@ -98,9 +165,15 @@
       transition: all 0.3s;
       display: flex;
       align-items: center;
+      cursor: pointer;
+      outline: none;
+      -webkit-tap-highlight-color: transparent;
     }
     .word-item:hover {
       background: #333;
+    }
+    .word-item:focus {
+      outline: none;
     }
     .dot {
       width: 10px;
@@ -115,9 +188,11 @@
     .yellow { background-color: #8C8411; }
     .purple { background-color: #691689; }
     .orange { background-color: #AB5E0A; }
+    .pink { background-color: #E75480; }
   </style>
 </head>
 <body>
+  <div id="filter-boxes-container"></div>
   <div class="input-container">
     <input type="text" id="search" placeholder="yaz buraya...">
     <span id="ghost-asterisk">*</span>
@@ -127,75 +202,55 @@
   </div>
   <script>
     let dictionary = {};
+    let excludedFilters = [];
     const files = [
-      { name: '1.txt', color: 'blue' },
-      { name: '2.txt', color: 'green' },
-      { name: '3.txt', color: 'red' },
-      { name: '4.txt', color: 'yellow' },
-      { name: '5.txt', color: 'purple' },
-      { name: '6.txt', color: 'orange' }
+      { name: 'DLT.txt', color: 'blue' },
+      { name: 'ET (I).txt', color: 'green' },
+      { name: 'ET (II).txt', color: 'red' },
+      { name: 'ET (III).txt', color: 'yellow' },
+      { name: 'ET (IV).txt', color: 'purple' },
+      { name: 'EDAL.txt', color: 'orange' },
+      { name: 'CC.txt', color: 'pink' }
     ];
 
-    let activeFilter = null; // Hangi dosyanın filtrelendiğini takip eder
-    let searchByMeaning = false; // Varsayılan olarak kelime arar
+    const searchInput = document.getElementById('search');
 
-    // Placeholder'ı güncelleyen fonksiyon
-    function updatePlaceholder() {
-  const searchInput = document.getElementById('search');
-  if (activeFilter) {
-    const fileName = activeFilter.replace('.txt', ''); // .txt uzantısını kaldır
-    searchInput.placeholder = `Arama yap (${fileName})...`;
-  } else {
-    searchInput.placeholder = "yaz buraya...";
-  }
-}
-
-    document.getElementById('search').addEventListener('input', function (e) {
-      const start = this.selectionStart;
-      const end = this.selectionEnd;
-      const originalValue = this.value;
-
-      this.value = processInput(originalValue);
-
-      if (this.value === originalValue) {
-        this.setSelectionRange(start, end);
-      } else {
-        const newPosition = Math.max(0, start - (originalValue.length - this.value.length));
-        this.setSelectionRange(newPosition, newPosition);
-      }
-
-      searchWord();
-    });
-
-    async function loadDictionary() {
-      for (const file of files) {
-        const response = await fetch(`vocabulary/${file.name}`);
-        const text = await response.text();
-        text.split('\n').forEach(line => {
-          let [word, meaning] = line.split(':');
-          if (word && meaning) {
-            dictionary[word.trim()] = { meaning: meaning.trim(), color: file.color, file: file.name };
-          }
+async function loadDictionary() {
+  for (const file of files) {
+    const response = await fetch(`vocabulary/${file.name}`);
+    const text = await response.text();
+    text.split('\n').forEach(line => {
+      let [word, meaning] = line.split(':');
+      if (word && meaning) {
+        const key = word.trim() + ':';
+        if (!dictionary[key]) {
+          dictionary[key] = [];
+        }
+        dictionary[key].push({
+          meaning: meaning.trim(),
+          color: file.color,
+          file: file.name
         });
       }
-      dictionary = Object.fromEntries(Object.entries(dictionary).sort());
-    }
-
-    function getRandomColor() {
-      return `hsl(${Math.floor(Math.random() * 360)}, 100%, 18%)`;
-    }
-
-    document.addEventListener("selectionchange", () => {
-      if (window.getSelection().toString().length > 0) {
-        document.documentElement.style.setProperty("--selection-bg", getRandomColor());
-      }
     });
+  }
+  dictionary = Object.fromEntries(Object.entries(dictionary).sort());
+}
+    function getRandomColor() {
+  return `hsl(${Math.floor(Math.random() * 360)}, 100%, 18%)`;
+}
+document.documentElement.style.setProperty("--selection-bg", getRandomColor());
+
+document.addEventListener("selectionchange", () => {
+  if (window.getSelection().toString().length > 0) {
+    document.documentElement.style.setProperty("--selection-bg", getComputedStyle(document.documentElement).getPropertyValue("--selection-bg"));
+  }
+});
 
     const measureSpan = document.createElement('span');
     measureSpan.style.visibility = 'hidden';
     measureSpan.style.position = 'absolute';
     measureSpan.style.whiteSpace = 'pre';
-    const searchInput = document.getElementById('search');
     measureSpan.style.fontSize = window.getComputedStyle(searchInput).fontSize;
     measureSpan.style.fontFamily = window.getComputedStyle(searchInput).fontFamily;
     document.body.appendChild(measureSpan);
@@ -204,8 +259,8 @@
 
     function processInput(input) {
       return input.replace(/I/g, 'ı')
-        .toLowerCase()
-        .replace(/[^a-zçğıöşüėŋ]/g, '');
+                  .toLowerCase()
+                  .replace(/[^a-zçğı:;,-öşüėŋ ]/g, '');
     }
 
     function updateGhostAsterisk() {
@@ -221,45 +276,58 @@
       ghostAsterisk.style.display = "block";
     }
 
-    function searchWord() {
-      const query = searchInput.value.replace('*', '').toLowerCase().trim();
-      const results = document.getElementById('results');
-      results.innerHTML = '';
-      if (query === '') return;
+    function normalizeQuery(query) {
+  return query
+    .replace(/e/g, '[eė]')  // 'e' harfi hem 'e' hem 'ė' olarak aranır
+    .replace(/n/g, '[nŋ]'); // 'n' harfi hem 'n' hem 'ŋ' olarak aranır
+}
 
-      let count = 0;
-      Object.keys(dictionary).forEach(word => {
-        let searchField = searchByMeaning ? dictionary[word].meaning.toLowerCase() : word.toLowerCase();
-        if (searchField.includes(query) && count < 50) {
-          // Filtreleme aktifse ve bu kelime filtrelenen dosyadan değilse atla
-          if (activeFilter && dictionary[word].file !== activeFilter) return;
+function searchWord() {
+  const query = searchInput.value.replace('*', '').toLowerCase();
+  const normalizedQuery = normalizeQuery(query); // Yeni normalizasyon fonksiyonunu kullan
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+  if (query === '') return;
+  
+  let count = 0;
+  Object.keys(dictionary).forEach(word => {
+    dictionary[word].forEach(entry => {
+      if (excludedFilters.includes(entry.file)) return;
+      
+      let searchField = searchByMeaning ? entry.meaning.toLowerCase() : word.toLowerCase();
+      if (searchField.match(new RegExp(normalizedQuery)) && count < 50) {
+        const li = document.createElement('li');
+        li.classList.add('word-item');
+        li.innerHTML = `
+          <span class='dot ${entry.color}'></span>
+          <span class='text-content'><b>${word}</b> ${entry.meaning}</span>
+        `;
+        li.addEventListener('click', () => {
+          if (!excludedFilters.includes(entry.file)) {
+            excludedFilters.push(entry.file);
+            addFilterBox(entry.file);
+            searchWord();
+          }
+        });
+        results.appendChild(li);
+        count++;
+      }
+    });
+  });
+}
 
-          const li = document.createElement('li');
-          li.classList.add('word-item');
-          li.dataset.file = dictionary[word].file; // Hangi dosyadan geldiğini sakla
-          li.innerHTML = `
-            <span class='dot ${dictionary[word].color}'></span>
-            <span class='text-content'><b>${word}</b> ${dictionary[word].meaning}</span>
-          `;
-          results.appendChild(li);
-          count++;
-        }
-      });
-    }
 
-    const ghostAsterisk = document.getElementById('ghost-asterisk');
+    let searchByMeaning = false;
 
-    // '*' işaretini takip eden event listener
-    searchInput.addEventListener('beforeinput', function (e) {
+    searchInput.addEventListener('beforeinput', function(e) {
       if (e.inputType === 'insertText' && e.data === '*') {
         e.preventDefault();
         searchByMeaning = !searchByMeaning;
-        ghostAsterisk.style.opacity = searchByMeaning ? '1' : '0.5';
+        document.getElementById('ghost-asterisk').style.opacity = searchByMeaning ? '1' : '0.5';
         searchWord();
       }
     });
-
-    searchInput.addEventListener('input', function (e) {
+    searchInput.addEventListener('input', function(e) {
       let processed = processInput(this.value);
       measureSpan.textContent = processed;
       const textWidth = measureSpan.offsetWidth;
@@ -277,14 +345,14 @@
     let lastSelectionStart = 0;
     let lastSelectionEnd = 0;
 
-    searchInput.addEventListener('beforeinput', function (e) {
+    searchInput.addEventListener('beforeinput', function(e) {
       lastSelectionStart = this.selectionStart;
       lastSelectionEnd = this.selectionEnd;
 
       if (e.inputType === 'insertText') {
-        const newValue =
-          this.value.slice(0, this.selectionStart) +
-          e.data +
+        const newValue = 
+          this.value.slice(0, this.selectionStart) + 
+          e.data + 
           this.value.slice(this.selectionEnd);
         const processed = processInput(newValue);
         measureSpan.textContent = processed;
@@ -296,7 +364,7 @@
       }
     });
 
-    searchInput.addEventListener('input', function (e) {
+    searchInput.addEventListener('input', function(e) {
       const processed = processInput(this.value);
       measureSpan.textContent = processed;
       const textWidth = measureSpan.offsetWidth;
@@ -312,20 +380,42 @@
       updateGhostAsterisk();
       searchWord();
     });
-
-    searchInput.addEventListener('paste', function (e) {
+    searchInput.addEventListener('beforeinput', function(e) {
+      lastSelectionStart = this.selectionStart;
+      lastSelectionEnd = this.selectionEnd;
+      
+      if (e.inputType === 'insertText' && e.data && e.data !== '*' && processInput(e.data) === '') {
+           e.preventDefault();
+           return;
+      }
+      
+      if (e.inputType === 'insertText') {
+        const newValue = 
+          this.value.slice(0, this.selectionStart) + 
+          e.data + 
+          this.value.slice(this.selectionEnd);
+        const processed = processInput(newValue);
+        measureSpan.textContent = processed;
+        const textWidth = measureSpan.offsetWidth;
+        const maxWidth = searchInput.clientWidth - 20;
+        if (textWidth > maxWidth) {
+          e.preventDefault();
+        }
+      }
+    });
+    searchInput.addEventListener('paste', function(e) {
       e.preventDefault();
       const pastedText = (e.clipboardData || window.clipboardData).getData('text');
       const processedPaste = processInput(pastedText);
-
+      
       const startPos = this.selectionStart;
       const endPos = this.selectionEnd;
-      const newValue =
-        this.value.slice(0, startPos) +
-        processedPaste +
+      const newValue = 
+        this.value.slice(0, startPos) + 
+        processedPaste + 
         this.value.slice(endPos);
       const finalProcessed = processInput(newValue);
-
+      
       measureSpan.textContent = finalProcessed;
       const textWidth = measureSpan.offsetWidth;
       const maxWidth = searchInput.clientWidth - 20;
@@ -340,24 +430,46 @@
       updateGhostAsterisk();
       searchWord();
     });
+    searchInput.addEventListener('paste', function(e) {
+      e.preventDefault();
+      let pastedText = (e.clipboardData || window.clipboardData).getData('text');
+      let processed = processInput(pastedText);
+      measureSpan.textContent = processed;
+      const textWidth = measureSpan.offsetWidth;
+      const maxWidth = searchInput.clientWidth - 20;
+      if (textWidth <= maxWidth) {
+        lastValidValue = processed;
+        this.value = processed;
+      } else {
+        this.value = lastValidValue;
+      }
+      updateGhostAsterisk();
+      searchWord();
+    });
 
-    // Tıklama olayını dinle
-    document.getElementById('results').addEventListener('click', function (e) {
-  const li = e.target.closest('.word-item');
-  if (!li) return;
+    function addFilterBox(fileName) {
+  const container = document.getElementById('filter-boxes-container');
+  const displayName = fileName.split('.')[0];
 
-  const file = li.dataset.file;
-  if (activeFilter === file) {
-    activeFilter = null; // Eğer zaten seçiliyse, filtreyi kaldır
-  } else {
-    activeFilter = file; // Yeni filtre uygula
-  }
-  
-  updatePlaceholder(); // Placeholder'ı güncelle
-  searchWord(); // Sonuçları yeniden yükle
-});
+  const box = document.createElement('div');
+  box.classList.add('filter-box');
+  box.innerHTML = `<span>${displayName}</span><span class="material-symbols-outlined">close</span>`;
 
+  box.addEventListener('click', () => {
+    removeFilter(fileName, box);
+  });
 
+  container.appendChild(box);
+
+}
+function removeFilter(fileName, boxElement) {
+  boxElement.style.animation = "fadeOutScale 0.3s ease-in";
+  setTimeout(() => {
+    excludedFilters = excludedFilters.filter(f => f !== fileName);
+    boxElement.remove();
+    searchWord();
+  }, 300);
+}
     loadDictionary();
   </script>
 </body>
