@@ -403,49 +403,52 @@ function searchWord() {
         }
       }
     });
-    searchInput.addEventListener('paste', function(e) {
-      e.preventDefault();
-      const pastedText = (e.clipboardData || window.clipboardData).getData('text');
-      const processedPaste = processInput(pastedText);
-      
-      const startPos = this.selectionStart;
-      const endPos = this.selectionEnd;
-      const newValue = 
-        this.value.slice(0, startPos) + 
-        processedPaste + 
-        this.value.slice(endPos);
-      const finalProcessed = processInput(newValue);
-      
-      measureSpan.textContent = finalProcessed;
-      const textWidth = measureSpan.offsetWidth;
-      const maxWidth = searchInput.clientWidth - 20;
-      if (textWidth <= maxWidth) {
-        this.value = finalProcessed;
-        lastValidValue = finalProcessed;
-        const newCursorPos = startPos + processedPaste.length;
-        this.setSelectionRange(newCursorPos, newCursorPos);
-      } else {
-        this.setSelectionRange(startPos, startPos);
-      }
-      updateGhostAsterisk();
-      searchWord();
-    });
-    searchInput.addEventListener('paste', function(e) {
-      e.preventDefault();
-      let pastedText = (e.clipboardData || window.clipboardData).getData('text');
-      let processed = processInput(pastedText);
-      measureSpan.textContent = processed;
-      const textWidth = measureSpan.offsetWidth;
-      const maxWidth = searchInput.clientWidth - 20;
-      if (textWidth <= maxWidth) {
-        lastValidValue = processed;
-        this.value = processed;
-      } else {
-        this.value = lastValidValue;
-      }
-      updateGhostAsterisk();
-      searchWord();
-    });
+    searchInput.addEventListener('paste', function (e) {
+  e.preventDefault();
+  let pastedText = (e.clipboardData || window.clipboardData).getData('text');
+  let processedPaste = processInput(pastedText);
+
+  const startPos = this.selectionStart;
+  const endPos = this.selectionEnd;
+  
+  const newValue = 
+    this.value.slice(0, startPos) + 
+    processedPaste + 
+    this.value.slice(endPos);
+
+  this.value = newValue;
+  lastValidValue = newValue;
+
+  const newCursorPos = startPos + processedPaste.length;
+  this.setSelectionRange(newCursorPos, newCursorPos);
+
+  updateGhostAsterisk();
+  searchWord();
+});
+
+searchInput.addEventListener('paste', function (e) {
+  e.preventDefault();
+  let pastedText = (e.clipboardData || window.clipboardData).getData('text');
+  let processedPaste = processInput(pastedText);
+
+  const startPos = this.selectionStart;
+  const endPos = this.selectionEnd;
+  
+  const newValue = 
+    this.value.slice(0, startPos) + 
+    processedPaste + 
+    this.value.slice(endPos);
+
+  this.value = newValue;
+  lastValidValue = newValue;
+
+  const newCursorPos = startPos + processedPaste.length;
+  this.setSelectionRange(newCursorPos, newCursorPos);
+
+  updateGhostAsterisk();
+  searchWord();
+});
+
 
     function addFilterBox(fileName) {
   const container = document.getElementById('filter-boxes-container');
