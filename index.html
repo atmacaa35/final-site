@@ -258,10 +258,10 @@ document.addEventListener("selectionchange", () => {
     let lastValidValue = "";
 
     function processInput(input) {
-      return input.replace(/I/g, 'ı')
-                  .toLowerCase()
-                  .replace(/[^a-zçğı:;,-öşüėŋ ]/g, '');
-    }
+  return input.replace(/I/g, 'ı')
+              .toLowerCase()
+              .replace(/[^a-zçğıöşüėŋ ]/g, ''); // Noktalama işaretleri ve özel karakterleri engelle
+}
 
     function updateGhostAsterisk() {
       const ghostAsterisk = document.getElementById('ghost-asterisk');
