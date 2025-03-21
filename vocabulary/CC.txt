@@ -1,0 +1,2596 @@
+eşitürmen: işitirim
+eşitürsen: işitirsin
+eşitür: işitir
+eşitürbiz: işitiriz
+eşitürsiz: işitirsiniz
+eşitürler: işitirler
+eşitür-edim: işitirdim
+eşitür-ediŋ: işitirdin
+eşitür-edi: işitirdi
+eşitür-edük: işitirdik
+eşitür-ediŋiz: işitirdiniz
+eşitürler-edi: işitirlerdi
+eşittim: işittim
+eşittiŋ: işittin
+eşitti: işitti
+eşittik: işittik
+eşittiŋiz: işittiniz
+eşittiler: işittiler
+eşittim-edi: işittim idi
+eşittiŋ-edi: işittin idi
+eşitti-edi: işitti idi
+eşittik-edi: işittik idi
+eşittüŋüz-edi: işittiniz idi
+eşittiler-edi: işittiler idi
+eşitkeymen: işiteceğim
+eşitkeysen: işiteceksin
+eşitkey: işitecek
+eşitkeybiz: işiteceğiz
+eşitkeysiz: işiteceksiniz
+eşitkeyler: işitecekler
+eşit: işit
+eşitiŋler: işitin
+eşitsin: işitsin
+keşke eşitke-edim: keşke işitecek olsaydım
+keşke eşitke-edin: keşke işitecek olsaydın
+keşke eşitke-edi: keşke işitecek olsaydı
+keşke eşitke-edik: keşke işitecek olsaydık
+keşke eşitke-ediŋiz: keşke işitecek olsaydınız
+keşke eşitkeyler-edi: keşke işitecek olsaydılar
+keşke eşitmiş-bolgay-edim: keşke işitmiş olacak
+keşke eşitmiş-bolgay-edi: keşke işitmiş olacak olsaydı
+keşke eşitmiş bolgay-edik: keşke işitmiş olacak olsaydık
+keşke eşitmiş bolga-ediŋiz: keşke işitmiş olacak
+keşke eşitmiş bolga-ediler: keşke işitmiş olacak olsaydılar
+keşke eşitkeymen: keşke işitecek olsam
+keşke eşitkeysen: keşke işitecek olsan
+keşke eşitkey: keşke işitecek olsa
+keşke eşitkeybiz: keşke işitecek olsak
+keşke eşitkeysiz: keşke işitecek olsanız
+keşke eşitkeyler: keşke işitecek olsalar
+neçik ki eşittim-esse: işittim ise
+neçik ki eşittiŋ-esse: nasıl ki işittin ise
+neçik ki eşitti-ese: nasıl ki işitti ise
+neçik ki eşittik ese: nasıl ki işittik ise
+neçik ki eşittiŋiz ese: nasıl ki işittiniz ise
+neçik ki eşittiler ese: nasıl ki işittiler ise
+eşittim-erse: işittim ise
+eşittiŋ-erse: işittin ise
+eşitti-erse: işitti ise
+eşittik-erse: işittik ise
+eşittiŋiz-erse: işittiniz ise
+eşittiler-erse: işittiler ise
+eşetimege, işitmege: işitmeye, işitmek için
+eşitken: işiten
+eşitmege küygen: işitmek için bekleyen
+sövermen: severim
+söversen: seversin
+söver-ol: sever
+sövdüm: sevdim
+sövgül: sev
+sövüş: arkadaş, dost
+sövmek: sevmek, sevgi
+alurmen: alırım
+aldum: aldım
+algıl: al
+yandurumen: ışık yakarım
+yandurdum: ışık yaktım
+yandur: ışık yak
+övrenürmen: öğrenirim
+övrendüm: öğrendim
+övreŋil: öğren
+agındum: (yukarı) çıktım
+agın: (yukarı) çık
+boluşurmen: yardım ederim
+boluştum: yardım ettim
+boluş: yardım et
+boluşmak: yardım
+köydürümen (köndürümen): yakarım
+köydürdüm (köndürdüm): yaktım
+köydür (köndür): yak
+konaklarmen: ağırlarım,
+kondurumen: ağırlarım,
+konakladum: ağırladım, misafir ettim
+konakla: ağırla, misafir et
+boşşaturmen: affederim, bağışlarım, azat ederim (Lat. absoluere)
+boşattım: affettim, bağışladım, azat ettim
+boşat: affet, bağışla, azat et
+boşatmak: azat etmek
+yaşşırumen: saklarım
+yaşşırdım: sakladım
+yaşşır: sakla
+yaşşırmak: saklamak
+körünürmen: görünürüm
+köründüm: göründüm
+körüŋil: görün
+körünmek: görünmek, görüntü
+yetermen: eklerim, katarım, ilave ederim, bağlarım (Lat. adiuŋere)
+yettim: ekledim, kattım, ilave ettim, bağladım
+yetkil: ekle, kat, ilave et, bağla
+açarmen: açarım
+açtım: açtım
+açkıl ~ açhıl: aç
+keltürmen: getiririm
+keltürdüm: getirdim
+keltür: getir
+kuçarmen: kucaklarım, sarılırım
+kuçtum: kucakladım, sarıldım
+kuçkul: kucakla, sarıl
+ıratırmen): uzaklaştırırım
+boşattım: azat ettim
+yarat et: serbest bırak, azat et
+kustunarmen: iç geçiririm, ah çekerim (Lat. alenare)
+kustundum: iç geçirdim, ah çektim
+kustuŋıl: iç geçir, ah çek
+kustunmak: iç geçirme, ah çekme
+azat etermen: azat ederim
+azat ettim: azat ettim
+azat et: azat et
+azat kişi: özgür kişi
+saban sürermen: saban sürerim
+saban sürdüm: saban sürdüm
+saban sür: saban sür
+kazganırmen: kazanırım
+kazgandum: kazandım
+kazgaŋıl: kazan
+ıdış: giriş; (giriş için) izin
+ıyırmen: gönderirim
+ıdım: gönderdim
+ımaga: göndermek için; içeri almak için
+sagıtlanurmen: silahlanırım
+sagıtlandum: silahlandım
+sagıtlaŋıl: silahlan
+sövünçlermen: sevindiririm, müjdelerim; haber veririm,
+çaharmen: dava ederim, şikayetçi olurum (Lat. accusare)
+çahtım: dava ettim, şikayetçi oldum
+çakkıl: dava et, şikayetçi ol
+çakmak: dava, şikayet
+sagındıramen: öğretirim,
+övrettüm sagındırdum: öğrettim, nasihat ettim
+övret sagındırgıl: öğret, nasihat et
+övretimek: öğretme, saganmak: hafıza, bellek
+sagıt: silah
+kamlık etermen: kehanette bulunurum (Lat. adiuinare)
+rançılık etermen: kehanette bulunurum
+ettim: kehanette bulundum
+etkil: kehanette bulun
+kam katun kişi dir: (o bir) kadın şamandır
+erekirmen: tiksinirim, iğrenirim
+eriktim: tiksindim, iğrendim
+unarmen: kabullenirim, razı olurum, itaat ederim (Lat. aquiesco)
+unadım: kabullendim, razı oldum, itaat ettim
+içermen: içerim
+içtüm: içtim
+iç: iç
+kaynaturmen: kaynatırım
+kaynattım: kaynattım
+kaynat: kaynat
+beyirmen: dans ederim, alkışlarım (Lat. ballare, 〈plaudere〉
+beyidim: dans ettim, alkışladım
+beyigil: dans et, alkışla
+körüm ~ körön ‣ koron: dans (Lat. hostande)
+us etermen: banyo yaparım,
+yuvunurmen: banyo yaparım,
+us ettim: banyo yaptım,
+men yuvundum: banyo yaptım,
+us et: banyo yap, yıkan
+yuvuŋul: banyo yap, yıkan
+issi su: banyo, hamam
+kahırmen: kızarım, öfkelenirim (Lat. blasmare, Alm. scȃpin)
+kahıdım: kızdım, öfkelendim
+kahıgıl: kız, öfkelen
+kahımak: kızgınlık, öfke
+sökermen: söverim, küfrederim
+söktüm: sövdüm, küfrettim
+sökkül: söv, küfret
+sökmek: küfür, sövme
+yaraşşırmen: uyarım; hemfikirim (Lat. concordare)
+yaraştım: uydum, hemfikirdim
+yaraştırgıl: uy, uygun ol
+yaraşmak: uygunluk
+yarılurmen: yarılırım
+yarıldum: yarıldım
+yarılgıl: yarıl
+yarılmak: yarılmak
+kıçkırırmen: bağırırım, seslenirim
+kıçkırdum: bağırdım, seslendim
+kıçkır: bağır, seslen
+kıçkırmak: bağırtı, çağırtı
+buzarmen: yıkarım, bozarım (Lat. destruere)
+buzdum: yıktım, bozdum
+buzgıl: yık, boz
+aşşarmen: yemek yerim
+aşşadım: yemek yedim
+aşşa: yemek ye
+aş: aş, yemek
+saklarmen: korurum, gözetirim (Lat. custodire)
+sakladum: korudum, gözettim
+sakla: koru, gözet
+saklamak: koruma, gözetme
+saklanurmen: sakınırım (Lat. cauere)
+saklandum: sakındım
+saklan: sakın
+tüşermen: düşerim
+yıkılurmen: düşerim
+tüştüm: düştüm
+yıkıldum: düştüm
+tüş: düş
+yıhıl: düş
+yügürürmen: hızlı yürürüm, koşarım
+yügürdüm: hızlı yürüdüm, koştum
+yügür: hızlı yürü, koş
+yügürmek: koşma
+ırlarmen: şarkı söylerim
+ırladım: şarkı söyledim
+ırlagıl: şarkı söyle
+ır: şarkı
+yuzzaklarmen: kilitlerim
+yuzakladum: kilitledim
+yuzakla: kilitle
+yuzzak: kilit
+açkuç: anahtar
+ayıl-tartarmen: kolan takarım
+ayıl-tarttum: kolan taktım
+ayıl: kemer, kolan
+kolan: kemer, kolan
+köŋül açarmen: avuturum, yatıştırırım
+açtım: avuttum, yatıştırdım
+köŋül aç: avut, yatıştır
+köŋül açmak: avutma, yatıştırma
+keŋeş berümen: öğüt veririm, fikir veririm
+keŋeş berdüm: öğüt verdim, fikir verdim
+keŋeş ber: öğüt ver, fikir ver
+keŋeş: ögüt, fikir
+tamam etermen: tamamlarım
+tamam ettim: tamamladım
+tamam etkil: tamamla
+tamam: tamam, eksiksiz
+bişşirürmen: pişiririm
+bişirdüm: pişirdim
+bişir: pişir
+bahırçı: aşçı
+aş bişürgen ev: mutfak
+tıyılurmen: son bulurum, kesilirim, dinerim
+tıyıldum: son buldum, kesildim, dindim
+tıyıl: son bul, kesil, din
+curumlarmen: ceza veririm, hüküm vermek
+curumladum: ceza verdim
+curumla: ceza ver
+curum: ceza
+etik keyermen: ayakkabı giyerim
+etik keydim: ayakkabı giydim
+etik key: ayakkabı giy
+etik: ayakkabı
+tutarmen: tutarım
+tuttum: tuttum
+tut: tut
+tutkun: esir, hapis
+sagınurmen: düşünürüm
+sagındum: düşündüm
+sagıŋıl: düşün
+sagınç: düşünce
+ulgayırmen: büyürüm
+ulgaydum: büyüdüm
+ulgaygıl: büyü
+alışırmen: değiş tokuş ederim, takas ederim
+alıştum: değiş tokuş ettim, takas ettim
+alışhıl: değiş tokuş et, takas et
+alışturmak: değiş tokuş, takas, alışveriş
+çövre-yürürmen: etrafında dolaşırım, etrafında dönerim
+yürüdüm: etrafında dolaştım, etrafında
+çövre yürgil: etrafında dolaş, etrafında dön
+çövre: çevre, dolay
+yazuk: suç, günah
+yazuklamış: günahkar
+ınanurmen: inanırım
+ınandum: inandım
+ınaŋıl: inan
+ınanmak: inanç
+ınaŋaan: inanan, inançlı, inanlı
+yikrar-berürmen: itiraf ederim
+yikrar berdim: itiraf ettim
+yikrar bergil: itiraf et
+yikrar berdi: itiraf etti
+tanırmen: tanırım, bilirim
+tanıdum: tanıdım, bildim
+tanıgıl: tanı, bil
+tanımak: tanıma, bilgi
+gam: endişe, kaygı, tasa (Lat. cura, Far. gan ‣ gam)
+köŋül açırgamak: pişmanlık
+yaparmen: örterim
+yaptım: örttüm
+yaphıl: ört
+yaphıç: kapak, örtü
+uzattırmen: yöneltirim, gönderirim
+uzattım: yönelttim, gönderdim
+ohuturmen: eğitirim, yetiştiririm
+ohuttum: eğittim, yetiştirdim
+ohuthıl: eğit, yetiştir
+sovaşurmen: kavga ederim
+yolga yürürmen: yola koyulurum, yola çıkarım
+yolga yürdüm: yola çıktım
+yolga yür: yola çık
+yol: yol, yolculuk
+issinürmen: ısınırım
+issilik: sıcaklık
+taŋlarmen: seçerim (Lat. cernere)
+taŋladum: seçtim
+taŋla: seç
+tikermen: dikerim
+tiktim: diktim
+tikkil ~ tikhil: dik
+tikmek: dikme (elbise)
+işşenürmen: güvenirim, inanırım, tevekkül ederim
+işşendüm: güvendim, inandım
+işşeŋil: güven, inan
+işşenmek: güven, inanç
+süzermen: süzerim
+süzdüm: süzdüm
+aşka-ündermen: yemeğe çağırırım
+toyga ündedüm: şölene çağırdım
+toyga ünde: şölene çağır
+toy: şölen, şenlik
+sohlanırmen: arzularım
+yarathan: yaradan
+yaratmak: yaratma
+eşikni yaparmen: kapıyı kapatırım
+eşikni yaptım: kapıyı kapattım
+eşikni yap: kapıyı kapat
+çöplermen: toplarım
+çöpledüm: topladım
+çöple: topla
+kuyruh: kuyruk
+boyın: boyun
+bişirmiş: pişmiş
+batırrımen: saklarım
+batırdım: sakladım
+batırmaga: saklamaya, saklamak için
+yıyarmen: toplarım, yığarım
+yomdarımen: toplarım
+yıdım: yığdım, yomdardım: topladım
+boyow: boya (Alm. varbe)
+yıkarmen: yıkarım
+yomuktı: toplandı, bir araya geldi, yıldı: toplandı, yığıldı
+yıktı: yıktı, devirdi
+berümen: veririm
+berdüm: verdim
+ber: ver
+bagışlarmen: hediye ederim, bağışlarım
+bagışladum: hediye ettim
+bagışla: hediye et
+bagış: hediye, bağış
+övretürmen: öğretirim
+övrettüm: öğrettim
+övret: öğret
+osta: usta, üstad
+koyarmen: koyarım, bırakırım
+koydum: koydum, bıraktım
+koygıl: koy, bırak
+koygan kişi: koyup bırakan kişi
+uyurmen: uyurum
+uyudum: uyudum
+uyugıl: uyu
+yaraşur: yaraşırım, layıkım
+yaraştı: yaraştı, uydu
+agrurmen: agrım var
+agrıdum: agrım vardı
+agrımak: acı, ağrı
+yük tüşürürmen: yükümü boşaltırım, yükümü indiririm
+yük tüşürdüm: yükümü indirdim
+enermen: inerim
+endim: indim
+eŋil: in
+eltürmen: götürürüm
+elttim: götürdüm
+eltkil: götür, ilet
+üleşürmen: paylaşırım, bölüşürüm
+üleştüm: paylaştım, bölüştüm
+üleşkil: paylaş
+üleşmek: paylaşma, bölüştürme
+eksitürmen: eksiltirim
+eksittim: eksilttim
+eksit: eksilt
+eksük: eksik
+şeşermen: çözerim
+şeştüm: çözdüm
+şeşkil: çöz
+ayturmen: söylerim
+ayttım: söyledim
+ayt: söyle
+tözermen: dayanırım, katlanırım
+tözdüm: dayandım
+tözgil: dayan
+tıyarmen: eŋellerim
+tıydum: eŋelledim
+tıymak: eŋel
+tınımdan keçermen: huzursuz
+tınımdan keçtim: huzursuz oldum
+tınımdın keç: huzursuz ol
+tınımdın keçmek: huzursuzluk
+karışurmen: korurum, savunurum
+abrarmen: korurum, savunurum
+karıştım: korudum, savundum
+abradum: korudum, savundum
+karış: koru, savun
+abra: koru, savun
+karışmak: korumak
+abramak: korumak
+nakşlarmen: nakş ederim, resmederim
+nakşladum: nakş ettim, resmettim
+nakşla: nakş et, resmet
+nakş: nakş, resim
+çıray: suret
+küsenürmen: arzularım
+küsendüm: arzuladım
+küseŋil: arzula
+küsenmek: arzu
+bernelü boldum: borçlandım
+borç: borç
+borçlı: borçlu
+aldarmen: aldatırım
+aldadum: aldattım
+alda: aldat
+aldamak: hile, aldatma
+soçulurmen: soyunurum
+çuçulurmen: soyunurum
+soçuldum: soyundum
+suçul: soyun
+bay: zeŋin, varlıklı
+baylık: zeŋinlik
+yaçanurmen: utanırım, çekinirim
+yaçandum: utandım, çekindim
+yaçan: utan, çekin
+yaçanmak: utanç, çekince
+yırtarmen: yırtarım
+yırttum: yırttım
+yırthıl: yırt
+yırtmak: yırtma
+tabuşırmen: tartışırım
+tabuştım: tartıştım
+satum alurmen: satın alırım
+satum aldum: satın almak
+satum algıl: satın al
+satum almak: satın alma
+küyermen: beklerim, sabrederim
+küydüm: bekledim, sabrettim
+küygil: bekle, sabret
+atlanurmen: ata binerim
+atlandum: ata bindim
+atlan: ata bin
+söndürürmen: söndürürüm
+söndürdüm: söndürdüm
+söndür: söndür
+çıharmen: çıkarım
+çıhtum: çıktım
+çıhkıl: çık
+taştın: dış, dışarısı
+çıharurmen: çıkarırım
+çıhardum: çıkardım
+çıhargıl: çıkar
+tanlaşurmen: incelerim (Lat. examinare)
+tanlaştım: inceledim
+tanlaş: incele
+koparurmen: kurarım, inşa ederim (Lat. edificare)
+kobardum: kurdum, inşa ettim
+kobar: kur, inşa et
+kobarmak: inşa
+kutulurmen: kurtulurum
+kutuldum: kurtuldum
+kutulgıl: kurtul
+kutulmış: kurtulmuş (olan)
+kutulmak: kurtuluş
+boşanurmen: serbest kalırım
+boşandum: serbest kaldım
+boşan: serbest kal
+boşanmak: serbest kalma
+harc etermen: harcarım
+harc ettim: harcadım
+harc et: harca
+yayarmen: yayarım
+yaydum: yaydım
+yaygıl: yay
+arınurmen: arınırım
+arındum: arındım
+arıŋıl: arın
+arınmak: arınma
+arınmaga: arınmak için, arınmaya
+köŋül içinde ayturmen: (bir şey üzerine) düşünüp taşınırım
+köŋül içinde ayttum: (bir şey üzerine) düşünüp  taşındım
+köŋülde ayt: (bir şey üzerine) düşünüp taşın
+köŋül içinde aytmak: (bir şey üzerine) düşünüp taşınma
+baha ururmen: değer biçerim
+baha urdum: değer biçtim
+baha ur: değer biç
+baha: değer, paha
+tüzetürmen: düzeltirim
+tüzettüm: düzelttim
+tüzet: düzelt
+tüz: düz, doğru
+tüzetmiş: düzeltilmiş
+etermen: yaparım, ederim
+ettim: yaptım, ettim
+etkil: yap, et
+us (I): gerçek, hakikat, olgu, vakıa (Lat. factum)
+bolurmen: olurum
+boldum: oldum
+boldum-edi: oldum idi
+berkitürmen: sağlamlaştırırım
+berk-etermen: sağlamlaştırırım
+berkittüm: sağlamlaştırdım
+berkitkil: sağlamlaştır
+berk: sağlam
+aç-turmen: açım
+açtım: acıktım
+aç bol: acık
+aç: aç
+üşşürmen: üşürüm
+üşidüm: üşüdüm
+savok: soğuk
+egirürmen: ip eğiririm
+iyirimen: ip eğiririm
+egirdüm, iyirdim: ip eğirdim
+egirgil, iyirgil: ip eğir
+ip: ip
+kaçarmen: kaçarım
+kaçtum: kaçtım
+kaçhıl: kaç
+sındururmen: kırarım
+sındurdum: kırdım
+sındur: kır
+sındurmak: kırmak
+yaŋılurmen: yanılırım, hata ederim
+yaŋıldum: yanıldım, hata ettim
+yaŋılmak: yanlış, hata
+ogrularmen, ogurlarmen: çalarım, hırsızlık yaparım
+ogruladum: çaldım, hırsızlık yaptım
+ogrula: çal, hırsızlık yap
+ogrulamak: hırsızlık
+çiçek: çiçek
+yemiş: meyve
+bunyat etermen: kurarım, tesis ederim
+ettüm: kurdum, tesis ettim
+bunyat etkil: kur, tesis et
+bunyat: temel, esas
+berkitürmen: berkitirim, sağlamlaştırırım
+berkittim: berkittim, sağlamlaştırdım
+berkit: berkit, sağlamlaştır
+kün: güç, kudret, kuvvet
+roz: şans, talih (Far. bachat)
+orozun: şans, talih (Far. bachat)
+maana: tür, tabiyat, yaradılış, nitelik (Lat. Forma)
+türliy: tür, tabiyat, yaradılış, nitelik (Lat. Forma)
+maana: tür, tabiyat, yaradılış, nitelik (Lat. modus)
+urmak: kamçı, kırbaç
+tütün: duman
+teşik: delik, açıklık
+temir: demir
+bollah: kaynak
+ögüz: nehir, akıntı
+ogrı: hırsız
+kaşşırmen: sürterim
+kaşşadım: sürttüm
+sövünürmen, biyenirmen: sevinirim
+sövündüm, biyendim: sevindim
+sövüŋil: sevin
+sövünmek: sevinç
+biyenip: sevinerek biyip: dans ederek
+kaşırmen: sürterim, kaşırım
+kaşıdum: sürttüm, kaşıdım
+kaşıgıl: sürt, kaşı
+yagı: kavga, savaş (Far. jank)
+tatarmen: tadarım
+tattım: tattım
+tatkıl: tat
+tatmak: tat, lezzet
+agırlarmen: hürmet ederim (Lat. honorare)
+agırladum: hürmet ettim
+agırla: hürmet et
+agır: saygı, hürmet
+yüklermen: yüklerim
+yükledüm: yükledim
+yükle: yükle
+yük: yük
+yılarmen: koklarım
+yıladum: kokladım
+yılagıl: kokla
+yılamak: koku, koku duyusu
+mülkrermen: miras alırım
+mülkredüm: miras aldım
+mülkre: miras al
+mülkremek: miras
+mende bar: benimdir, bende var
+tegdi: sahiptim, benimdi (Lat. habuj)
+saga-bolsun: senindir, sana aittir (Lat. habeas)
+yovaşlık: alçakgönüllülük, tevazu
+kondurımen: misafir ederim, ağırlarım (Lat. hospito)
+oruç tutarmen (tutırmen): oruç tutarım, oruç tuttum
+oruç tut: oruç tut
+oruç: oruç
+başlarmen: başlarım
+başladum: başladım
+başlagıl: başla
+baş: baş, başlaŋıç, üst taraf
+aŋlarmen: anlarım
+aŋladum: anladım
+aŋlagıl: anla
+aŋlamak: akıl, zeka (Lat. intellectus)
+buyuramen: emrederim, buyururum
+buyurdum: emrettim, buyurdum
+buyur: emret
+yetermen: bağlarım, birleştiririm
+yettim: bağladım, birleştirdim
+yetkil: bağla, birleştir
+keyermen: giyerim
+keydüm: giydim
+keygil: giy
+ton: giysi, kıyafet
+oprak: giysi, kıyafet
+öpkelermen: kızarım, öfkelenirim
+öpkeledüm: kızdım, öfkelendim
+öpkele: kız, öfkelen
+öpke: öfke
+yarıh etermen: aydınlatırım
+yarıh: ışık, aydınlık
+tartınurmen: hayal ederim, tasavvur ederim
+tartındum: hayal ettim, tasavvur ettim
+tartıŋıl: hayal et, tasavvur et
+izdermen: ararım
+izdedim: aradım
+izdegil: ara
+izdemek: aramak
+sorarmen: sorarım
+sordum: sordum
+sorgıl: sor
+yara etermen: yaralarım
+yara ettim: yaraladım
+yara etkil: yarala
+eliklermen: alay ederim
+elikledüm: alay ettim
+eliklegil: alay et
+eliklemek: alay, istihza
+şişermen: şişerim
+şiştim: şiştin
+şiştkil: şiş
+şişmek: şişme, şişkinlik
+yaturmen: yatarım
+yattum: yattım
+yatkıl: yat
+yargularmen, törülermen: yargılarım, hüküm veririm
+yarguladım, törüledim: yargıladım, hüküm verdim
+yuvarmen: yıkarım
+yuvdum: yıkadım, yudum
+yu: yıka
+oynarmen: oynarım
+oynadum: oynadım
+oynagıl: oyna
+oyın: oyun
+sözlermen: konuşurum
+sözledüm: konuştum
+sözlegil: konuş
+sözlemek: konuşma, sohbet
+yıltradı: şimşek çaktı
+yıltrar: şimşek çakar
+yıltramak: şimşek
+ıyarmen: gönderdim, salıverdim
+ıydum: gönderdim, salıverdim
+ıygıl: gönder, salıver
+elçi: elçi
+tururmen: kalırım
+kalırmen: kalırım
+turdum: kaldım, kaldım: kaldım
+turgıl, kalgıl: kal
+yurt: mesken
+alışurmen: değiş tokuş ederim, takas ederim
+alıştum: değiş tokuş ettim, takas ettim
+teksir: değiş tokuş
+alışturmak: değiş tokuş, takas
+ölermen: ölürüm
+öldüm: öldüm
+ölüm: ölüm
+taŋlarmen: şaşarım, şaşırırım
+taŋladum: şaşırdım
+karıştururmen: karıştırırım
+bulgaşturdum: karıştırdım
+karıştur: karıştır
+bulgaştur: karıştır
+çaynarmen: çiğnerim, kemiririm
+çaynadum: çiğnedim
+çaynagıl: çiğne
+sakız: sakız
+biştürümen: olgunlaştırırım
+bişürtim: olgunlaştırdım
+ölçermen: ölçerim
+ölçtüm: ölçtüm
+ölçkil: ölç
+ölçe: ölçü, ölçek
+batarmen: batarım
+battım: battım
+yilik: ilik
+tişlermen: ısırırım
+tişledüm: ısırdın
+tişle: ısır
+tişlemek: ısırık
+oŋarmen: (sararıp) solarım
+oŋdım: (sararıp) soldum
+ottalarmen: iyileştiririm, tedavi ederim
+ottaladum: iyileştirdim, tedavi ettim
+ottala: iyileştir, tedavi et
+ot: em, ilaç
+eygirek etermen: daha iyi duruma getiririm
+eygirek ettim: daha iyi duruma getirdim
+eygirek et: daha iyi duruma getir
+tegirmen tartarmen: değirmeni döndürürüm
+tegirmen tarttım: değirmeni döndürdüm
+tegirmen tart: değirmeni döndür
+tegirmen: değirmen
+tegirmençi: değirmenci
+tepretürmen: hareket ettiririm
+teprettim: hareket ettirdim
+tepretkil: hareket ettir
+tepretmek: hareket
+körgüzürmen: gösteririm
+körgüzdüm: gösterdim
+körgüzgil: göster
+körgüzmek: gösterme, işaret etme
+ötünçke berümen: ödünç veririm
+berdüm: ödünç verdim
+ötünçke ber: ödünç ver
+ötünç: ödünç
+tagıç: dağ
+taglar: dağlar, sıra dağ
+yanırmen: tehdit ederim
+yanadım: tehdit ettim
+teŋizde yürürmen: yelkenliyle denizde giderim
+teŋizde yürdüm: yelkenliyle denizde gittim
+teŋizde yürügil: yelkenliyle denizde git
+teŋizde yürügen: gemici, denizci
+tilemen: istemiyorum (Lat. nolo)
+tilemedüm: istemedim
+tillemegil: isteme
+habar: haber
+aşır: düğün
+bestlermen: beslerim
+seniŋ sözini bestlermen: senin sözüne
+bestledüm: besledin
+bestlegil: besle
+bestlemek: gıda, besin
+bogulurmen, bugulurmen: (suda) boğulurum
+boguldum: (suda) boğuldum
+bogulmak: boğulma
+tanarmen: inkar ederim
+tandum: inkar ettim
+taŋıl: inkar et
+sanarmen: sayarım
+sanadum: saydım
+sanagıl: say
+san: sayı
+yüzermen: yüzerim
+yüzdüm: yüzdüm
+yüzgil: yüz
+yüzgen-kişi: yüzücü
+tuvarmen: doğarım
+togarmen: doğarım
+togdum: doğdum
+toggıl: doğ
+togmak: doğum, doğma
+tovgan: doğan, doğmuş olan
+kar yagar: kar yağar
+kar yagdı: kar yağdı
+kar: kar
+burçak: dolu (Far. toolu)
+at-tahırmen: isim veririm
+at-tahdım: isim verdim
+at-tahkıl: isim ver
+at: ad, isim
+ziyan etermen: zarar veririm
+ettim, izan ettim: zarar verdim
+ziyan etkil: zarar ver
+yaraştururmen: düzenlerim, tertip ederim
+yaraştırdum: düzenledim, tertip ettim
+yaraştur: düzenle, tertip et
+yaraşturmak: düzen, tertib
+unuturmen: unuturum
+unuttum: unuttum
+unutkıl: unut
+unutmak: unutmak, unutkanlık
+unutkan: unutan, unutkan
+yoluhurmen: karşılaşırım
+yoluhtum: karşılaştım
+yoluhkıl: karşılaş
+körgüzürmen: gösteririm, işaret ederim
+körgüzdüm: gösterdim, işaret ettim
+körgüz: göster, işaret et
+öpermen: öperim
+öptüm: öptüm
+öpkil: öp
+öpmek: öpücük
+öktündüm: gücendirdim, rencide ettim
+öktüŋil: gücendir, rencide et
+öktünmek: hakaret, tahkir
+siyermen: işerim
+siydüm: işedim
+siygil: işe
+si: sidik, idrar
+kerek tur: gereklidir
+kerek edi: gerekliydi
+iş: iş (Lat. opus)
+küçüm yeter: gücüm yeter, muktedirim (Lat. possum)
+küçüm yetti: gücüm yetti, muktedirdim (Lat. possuj)
+küçüm: yapabilme, gücü yetme, muktedir olma
+kolarmen: rica ederim, isterim
+koldum: rica ettim, istedim
+kolgıl: rica et, iste
+kolmak: rica
+anuklarmen: hazırlarım
+anukladum: hazırladım
+anuklagıl: hazırla
+anuklamak: hazırlık
+eltürmen: taşıyıp götürürüm
+elttüm: taşıyıp götürdüm
+limen: liman (Far. limanj)
+asarmen: asılırım, sarkarım
+ilermen: asılırım, sarkarım
+astum, ildim: asıldım, sarktım (Far. asstu)
+askıl, ilgil: asıl, sark (Far. aschil)
+ıglarmen: ağlarım
+ıgladum: ağladım
+ıglagıl: ağla
+ıglamak: ağlama
+yaraşurmen: hoşa giderim, beğenilirim
+yaraştım: hoşa gittim, beğenildim
+yaraşmış: iyilik, lütuf, hatır (Lat. placitun)
+sasırmen: çürürüm
+sasıdum: çürüdüm
+buyurumen: emrederim (Lat. praecipere)
+buyurdum: emrettim
+buyurgıl: emret
+buyuruk: emir, talimat
+yamgur yagar: yağmur yağar
+yamgur yagdı: yağmur yağdı
+yamgur: yağmur
+aş berümen: beslerim, yemek veririm
+aş berdüm: besledim, yemek verdim
+bestle: besle, yemek ver
+sançarmen: saplarım
+sançtım: sapladım
+sançkıl: sapla
+sançmak: saplama, delme
+sagınurmen: düşünürüm, zannederim, kastederim, inanırım (Lat.
+sagındum: düşündüm, zannettim, inandım
+sagıŋıl: düşün, zannet, inan
+sagınmak: düşünme, düşünce, fikir
+peşman bolurmen: pişman olurum
+peşman boldum: pişman oldum
+peşman: pişman
+peşman bolgıl: pişman ol
+terek tikermen: ağaç dikerim
+terek tiktim: ağaç diktim
+terek tik: ağaç dik
+terek tikmek: ağaç dikme
+köküm-tur: dahilim, aidim (Lat. ptineo, Far. ches em)
+ururmen: vururum
+urdum: vurdum
+ur: vur
+tanukluk berümen: tanıklık ederim
+kemişürmen: (kenara) atarım
+kemiştim: (kenara) attım
+kemişkil: (kenara) at
+yazok: günah
+ellik: barış
+yon: saç
+korkarmen: korkarım
+korktum: korktum
+korkkıl: kork
+korkmak: korku
+karav: mükafat, ödül
+baluklarmen: balık tutarım
+balukladum: balık tuttum
+balukla: balık tut
+baluk: balık
+koyarmen: koyarım
+koydum: koydum
+koygıl: koy
+balukçı: balıkçı
+yarlı: fakir, muhtaç
+yarlılık: fakirlik
+bitirrimen: bitiririm, tamamlarım
+bitirdim: bitirdim, tamamladım
+bitirmek: tamamlama, sonuçlandırma, nihayete erdirme
+tıŋlarmen: dinlenirim
+tıŋladum: dinlendim
+tıŋla: dinlen
+tıŋlamak: dinlenme, istirahat, sükunet, sessizlik, huzur
+isdermen: ararım, araştırırım, incelerim, sorarım
+izdermen: ararım, araştırırım, incelerim (Lat. quaerere)
+izdedüm, isdedüm: aradım, araştırdım, inceledim
+izdegil, isdegil: ara, araştır, incele
+izdemek, isdemek: arama, inceleme, araştırma, sorgu
+daavı ~ daave, daw: arama, inceleme, araştırma, sorgu
+tafş etermen: vazgeçerim, bırakırım (Lat. quito)
+tafş ettüm: vazgeçtim, bıraktım
+tafş etkil: vazgeç, bırak
+tafş etmek: vazgeçme, bırakma
+kaytarumen: geri veririm
+kaytardum: geri verdim
+kaytargıl: geri ver
+yularmen: çözerim, alırım, kurtarırım
+yuldum: çözdüm, aldım, kurtardım
+yulgıl: çöz, al, kurtar
+yulmak: kurtuluş
+koyarmen: bırakırım
+koydum: bıraktım
+koygıl: bırak
+koygan: koyan, bırakan
+bezermen: vazgeçerim, bezerim
+bezdüm: vazgeçtim, bezdim
+bezgil: vazgeç
+karav berümen: ödüllendiririm, mükafatlandırırım
+karav berdüm: ödüllendirdim, mükafatlandırdım
+karav bergil: ödüllendir, mükafatlandır
+karavsını bermek: ödüllendirme, mükafatlandırma
+yülürmen: tıraş ederim
+yülüdüm: tıraş ettim
+yülügil: tıraş et
+yülügüç: ustura
+kayıra alurmen: geri alırım
+kayırı aldum: geri aldım
+kayırı algıl: geri al
+kayırı almak: geri alma
+kendime tutarmen: geri dururum, kendimi tutarım
+kendime tuttum: geri durdum, kendimi tuttum
+kendime tutkıl: geri dur, kendini tut
+könderümen: düz hale getiririm, düzeltirim
+könderdüm: düzelttim
+köndergil: düzelt
+könü: düz, doğru
+baskak: yönetici, vali
+ketermen: uzaklaşırım, giderim
+kettüm: uzaklaştım, gittim
+ketkil: uzaklaş, git
+keri kaytarmen: geri gelirim, geri döndüm
+keri kayttum: geri geldim, geri döndüm
+tirilürmen: ölümden dirilirim
+tirildüm: ölümden dirildim
+tirilgil: ölümden diril
+tirilmek: (ölümden) diriliş
+üpsünürmen: hatırlarım, anımsarım
+üpsündüm: hatırladım, anımsadım
+üpsüŋil: hatırla, anmsa
+külermen: gülerim
+küldüm: güldüm
+külgil: gül
+kültkün: gülümseme, kahkaha
+amanat berümen: emanet ederim
+berdüm: emanet ettim
+amanat ber: emanet et
+amanat: emanet
+üüksünürmen: hatırlarım
+üüksündüm: hatırladım
+kayturmen: geri dönerim
+kayttum: geri döndüm
+kaytkıl: geri dön
+kalurmen: kalırım, geriye kalırım, artarım
+kaldum: kaldım, arttım
+kalgıl: kal, art
+alurmen: alırım
+aldum: aldım
+algıl: al
+yargu yarmak: hüküm sürme, yönetme (Lat. regimentum)
+uyanurmen: uyanırım
+uyandum: uyandım
+uyaŋıl: uyan
+covap berürmen: cevap veririm
+berdüm: cevap verdim
+covap bergil: cevap ver
+covap: cevap
+baharmen: bakarım
+bahtım: baktım
+bahkıl: bak
+yalbarurmen: rica ederim
+yalbardum: rica ettim
+yalbargıl: rica et
+yalbarmak: rica, istek
+tutupturmen: yönlendiririm, yönetirim
+tutupturdum: yönlendirdim, yönettim
+tutupturgıl: yönlendir, yönet
+yargu yarmak: hüküm sürme, yönetme
+yamarmen: yamarım
+yamadım: yamadım
+bilürmen: bilirim, anlarım
+bildüm: anladım
+bilgil: bil, anla
+us (II): akıl, us
+akıl: akıl
+barmen: varım
+bardum: var idim
+bol: ol
+hak teyirümen: öderim
+hak teyirmek: ödeme
+nişanlarmen: işaretlerim
+nişanladım: işaretledim
+nişanlagıl: işaretle
+nişan: işaret, alamet, gösterge
+mohorlarmen: mühürlerim
+mohorladum: mühürledim
+mohorla: mühürle
+mohor: mühür
+çalarmen: ses veririm, tınlarım, çınlarım; çalarım
+çaldum: ses verdim, çaldım
+çalgıl: ses ver, çal
+ün: ses, seda
+sas ~ ses: ses, seda
+tüş körermen: rüya görürüm, düş görürüm
+kördüm: rüya gördüm, düş gördüm
+tüş körgil: rüya gör, düş gör
+tüş: rüya, düş
+olturumen: otururum
+olturdum: oturdum
+oltur: otur
+olturguç: tabure
+artarmen: geçerim, aşarım; üstün gelirim (Lat. superare)
+arttım: geçtim, aştım
+artkıl: geç, aş
+artmak: fazla, gereğinden fazla, gereksiz, fuzuli
+saçarmen: (tohum) ekerim
+saçtum: tohum ektim
+saçkıl: tohum ek
+urluk ~ övürlük: tohum
+yazarmen: yazmak
+çizermen: yazmak
+çizdüm: çizdim
+çizgil: çiz
+çizmek: çizim (Lat. scriba)
+betikçi: yazıcı, katip (Lat. scriptura)
+tüpkürümen: tükürürüm
+tüpkürdüm: tükürdüm
+tüpkürgil: tükür
+tüpkürmek: tükürük
+tatarmen: tadarım, tadına bakarım
+tattım: tattım, tadına baktım
+tatkıl: tat, tadına bak
+susarmen: susarım
+susadum: susadım
+susamak: susamak
+susagan: susayan, susamış
+artınça yürürmen: ardından giderim, takip ederim
+artınça yürüdüm: ardından gittim, takip ettim
+artınça yürügil: ardından git, takip et
+tözermȇ: sabır ve tahammül gösteririm, dayanırım, katlanırım
+tözdüm: sabır ve tahammül gösterdim, dayandım, katlandım
+tözgil: sabır ve tahammül göster, dayan, katlan
+sezermen: sezerim
+sezdim: sezdim
+sezmek: his, duyu, sezi
+kısarmen: sıkıştırırım (Lat. striŋere)
+kıstum: sıkıştırdım
+kıskıl: sıkıştır
+ayırumen: ayırırım
+ayırdum: ayırdım
+ayırgıl: ayır
+silkermen: silkerim, silkelerim
+silktüm: silktim, silkeledim
+silkkil: silk, silkele
+sızgırurmen: tıslarım, cızırdarım, cazırdarım
+sızgırdum: tısladım, cızırdadım, cazırdadım
+sızgırgıl: tısla, cızırda, cazırda
+sızgurma: cazırtı, cızırtı
+tözermen: ıstırap çekerim, acı çekerim
+tözdüm: ıstırap çektim, acı çektim
+tözgil: ıstırap çek, acı çek
+tözmek: ıstırap, acı
+sıkarmen: sıkarım, bastırırım
+sıktum: sıktım,bastırdım
+sıkkıl: sık, bastır
+turarmen: ayağa kalkarım, doğrulurum
+turdum: ayağa kalktım, doğruldum
+koptum: ayağa kalktım, doğruldum
+turgıl: ayağa kalk, doğrul
+kopkıl: ayağa kalk, doğrul
+oşkarmen: benzerim
+oşkadım: benzedim
+oşkar: benzer, benzeri
+benzer: benzer, benzeri
+salam berümen: selam veririm, selamlarım
+salam berdüm: selam verdim, selamladım
+salam bergil: selam ver
+salam: selam
+turumen: ayakta dururum
+turdum: ayakta durdum
+tur: ayakta dur
+tuzlarmen: tuzlarım
+tuzladum: tuzladım
+tuzlagıl: tuzla
+tuz: tuz
+kulluk etermen: hizmet ederim
+kulluk ettim: hizmet ettim
+kulluk etkil: hizmet et
+sekirümen: sıçrarım, atlarım
+sekirdüm: sıçradım, atladım
+sekirgil: sıçra, atla
+sekirmek: sıçrama, atlama
+soçım: sıçrama, atlama
+kömermen: gömerim
+kömdüm: gömdüm
+kömgil: göm
+teyermen: değerim, dokunurum (Lat. taŋere)
+teydüm: değdim, dokundum
+teygil: değ, dokun
+tutkıl: değ, dokun
+tartarmen: çekerim
+tarttum: çektim
+tartkıl: çek
+boyarmen: boyarım
+boyadum: boyadım
+boyagıl: boya
+boyaçı: boyacı
+boya: boya, renk
+raŋ: boya, renk
+titrermen: titrerim, sallanırım
+titredüm: titredim, sallandım ̃
+titre: titre, sallan, sarsıl
+titremek: titreme, sallantı, sarsıntı
+yer titremeki: sarsıntı, deprem
+katışturumen: şarabı karıştırırım
+katışturdum: şarabı karıştırdım
+katıştur: şarabı karıştır
+katışturmak: şarabı karıştırmak
+keçermen: (karşı tarafa) geçerim
+keçtüm: keçtim
+keçkil: keç
+kökrer: gök gürler, şimşek çakarım
+kökredi: gök gürledi, şimşek çaktı
+kökremek: gök gürlemesi, şimşek çakması
+tın boldı: sakinleşti, sessizleşti
+korkusuz: korkusuz
+tek turumen: susarım, sessiz dururum
+tek turdum: sustum, sessiz durdum
+tek turgıl: sus, sessiz dur
+burarmen: çeviririm, burarım
+burdum: çevirdim, burdum
+burgıl: çevir, bur
+tanukluk berümen: tanıklık ederim
+tanukluk berdüm: tanıklık ettim
+tanukluk bergil: tanıklık et
+tanuk: tanık
+öskürümen: öksürürüm
+öskürdüm: öksürdüm
+öskürmek: öksürük
+satarmen: satarım
+sattım: sattım
+satkıl: sat
+satuk: satma, satış
+satmak: satma, satış
+tilermen: isterim
+tiledüm: istedim
+tilegil: iste
+tilemek: istek, dilek
+barumen: giderim
+bardum: gittim
+bargıl: git
+yol: yol
+safar: yolculuğa dahil olan, yolculuk
+körermen: görürüm
+kördüm: gördüm
+körgil: gör
+körmek: görme, görmek
+yeŋermen: yenerim, galip gelirim
+yeŋdüm: yendim, galip geldim
+yeŋgil: yen, galip gel
+yeŋmek: zafer, galibiyet
+yeŋilmek: yenilmek, mağlup olmak
+uçarmen: yüksekte uçarım
+uçtum: uçtum
+uçkıl: uç
+çıpçıklar: kuş(lar)
+ündermen: seslenirim
+ündedüm: seslendim
+ündegil: seslen
+ün: ses, seda
+töre oşkarmen: (bir şeyi) adet haline getiririm, (bir şeye) alışırım
+tuttum: alışkanlık veya adet haline getirdim
+töre okşat: alışkanlık veya adet haline getir
+boş: boş
+uv: av
+kusarmen: kusarım
+kustım: kustum
+kelürmen: gelirim
+keldüm: geldim
+kelgen: gelen (Lat. venȋco, Far. anmadam)
+uyalurmen: ürkerim, korkarım
+imenirmen: ürkerim, korkarım
+uyaldum: ürktüm, korktum, çekindim
+imendim: ürktüm, korktum, çekindim
+uyalgıl: ürk, kork, çekin
+uyat: çekiŋenlik, korku, ürkeklik
+uyah turumen: uyanık kalırım, uyanık dururum
+uyah turdum: uyanık kaldım, uyanık durdum
+uyah tur: uyanık kal, uyanık dur
+kor..: uyanık kal, uyanık dur
+çövürümen: çeviririm, döndürürüm
+çövürdüm: çevirdim, döndürdüm
+çövürgil: çevir, döndür
+çövürmek: döndürmek, çevirmek
+teyirmek: döndürmek, çevirmek
+teyermen: değerindeyim, değerim
+teydüm: değerindeydim, değerdim
+teyer: değerindedir, değer
+tegmek: değer, fiyat
+körünürmen: görünürüm
+köründüm: göründüm
+maga körünür: bana görünür
+körmek: görme duyusu, görme yetisi
+sürtermen: sürerim, merhem sürerim (Lat. uŋere)
+sürttüm: (merhem) sürdüm
+sürtkil: (merhem) sür
+tirilürmen: yaşarım, hayattayım
+tirildüm: yaşadım, hayattaydım
+tirigil: yaşa, hayatta ol
+tirilmek: yaşam, hayat, canlılık
+kerti: gerçek, doğru
++da: yanında, yakınında (Bulunma Durum Eki)
+en borun: önde, önden
+ilgeri: önde, önden
++dan: +dAn (Ayrılma Durum Eki)
+katında: huzurunda
+ıraktın: uzak, uzakta (Far. açdour, Lat. aloŋe)
+açı türlü: acı (Lat. amare)
+dagın ~ dahın: şimdiye kadar, henüz
+anuz: şimdiye kadar, henüz
+alay bolmazsa: öyle değilse
+birerde: bir kez, bir defa; günün birinde; bir zamanlar
+emdiden arı: şimdiden itibaren (Lat. admodo, Far. aç inpes)
+terklep: yakın zamanda, biraz sonra, hemen
+yakşı kılı: iyi, iyi yaradılışlı
+eygi: iyi, iyi yaradılışlı
+heşş köŋül bile: iyi kalpli, müşfik, sevecen, yardımsever
+terk: hızlı, hızla
+katında: bu tarafta, bu yanda (Lat. citra)
+orta kılı: normal olarak, genellikle; sıradan, olağan, alışılagelmiş
+birle, bile: ile
+kiminin-tur, kimniŋ tur: kimindir?
+otru: karşıda, karşısında
+taŋda: sabah
+könde könde, kündegi: günlük, gündelik (Lat. cotidie)
+çöp çövre: çepeçevre
+emdiden keri, erte çakta: eskiden, önceleri
+aŋınça: a kadar
++dan: +dAn (dışarı) (Ayrılma Durum Eki)
+tatlı kılı, çevüh: tatlı
+korkunç bile, saarlap: utanarak, çekinerek, sakınarak
+uzun kılı, köpge-deyri: uzun, uzun süre
+ımışak kıllı, yumşak: zayıf yaradılışlı
+muna: işte orada
+tagı ~ tahı: ve
+çünkin: öyleyse, o yüzden
+basa, anıg üçün: öyleyse, o yüzden
+basa: hatta, ve
+taştın: dışarısı, dışarıda
+taşkarı: dışarısı, dışarıda
+taşkarı: dışarıya
+egri kılı, yalganlap: yanlışlıkla, aldatma amacıyla, yalan
+berk kılı, berklep: sağlam, sert
+katılap: sert, katı
+köp kurla: sık sık
+magar: belki
+bozgay kim keter: belki
+könü kıllı, könü-hale: güvenilir, sadık, dürüst
+agır kılı: ağır
+barça tövrede: genel olarak
+könçeküŋni kiygil: pantolonunu giy
+kişi, azam: insan
+monda: burada
+agırsıy bile, avursı-bile: saygı göstererek,
+tünekün: dün
+bukün ~ bükün: bugün
+kulluk birle: uşaklık, hizmetkarlık ile, kikşi
+vay: vay!
+içinde: içinde, içeride
+içkeri: içinde, içeride
+evet: evet, öyle
+alay: evet, öyle
+anıg-üçün: o yüzden
+bir ança: şimdi, hemen
+imdi: şimdi, hemen
+andan: oradan, o yüzden
+ekinçi: bir kez daha
+jana: bir kez daha
++da: bir yerde, bir yere
++ga: bir yerde, bir yere
+içkeri: içeriye
+eki katıŋ harassında: arasında (Lat. inter)
+bitünlik birle: gerçek, tam, eksiksiz
+anda: oraya
+söküş bile: rencide ederek, inciterek
+katında: yanında, huzurunda, yakınında
+tübinde: derinde, alçakta
+hoş köŋül bile: seve seve, severek
+ırak: uzak, uzakta
+comart köŋül bile: cömertçe
+yeŋül köŋül bile: hafiflikle, saflıkla
+yeŋül: hafif
+kim sasır: kim kötü kokuyor?
+yaman kılı: kötü (kişi)
+emdi: demin, şimdi, biraz önce (Lat. modo)
+köp: çok
+eksik (eysik): eksik, az
+essik: eksik, az
+menin-bile: benimle
+eygirek: daha iyi
+az: az, ucuz (Lat. modicum)
+azrak: daha az, daha ucuz
+yaman köŋül bile: kötülükle, kötü niyetle
+eygirek: daha iyi
+yok: yok, değil
+emdi: şimdi, artık
+yok ese: yok ise
+heç neme-tagı: hiçbir şey
+herkiz, hergiz: hiçbir zaman
+artum: çok, çok fazla
+köp: çok, çok fazla
+bizin bile: bizimle
+kayma: hepsi, her şey, her
+albet: kesinlikle, mutlaka
+magat: kesinlikle, mutlaka
+hoş ey (~ hoşey) bile: onurlu, şerefli, namuslu, haysiyetli
+yaşırı: gizli, saklı, gizlenmiş
+artuk: fazla
+soŋra: sonra
+arkun: yavaş, sakin
+emburun (emborun): ilk başta, ilk defa
+mayan: başlıca, özellikle, bilhassa; asıl, asli, başlaŋıçta
+az: az
+hasa: özellikle
+yavoh: yakın
+ırah: uzak
+üçün: ...in yüzünden, ...den dolayı
+üçün: için (Lat. pro)
+üçün: ...den, içinden (Lat. per)
+aşkara: aleni, açıkça
+tuyana: aleni, açıkça
+tolu kılı: dolu
+tolu: dolu
+yamanrak: daha kötü, beter
+andan yamanrak: ondan daha kötü, çok kötü
+terkey: tez, çabuk, hızlı
+arıtmak bile: temiz, saf, arı olarak
+boy bile: şahsen, bizzat
+başka: başka, diğer
+ne: ne
+neçe: ne kadar, nice
+kaçan: ne zaman
+ne-üçün: neden, niçin
+anın-üçün: onun için, o yüzden
+yaanı: yani
+kayın: kim
+dan: -dan/-den (daha), çok, pek çok, oladiğince (Lat. quam)
+neçik: ne şekilde, nasıl
+kaysı: haŋi(si), nasıl bir şey
+artında: arkasında
+togruluk bile: dosdoğru, dümdüz, iyi, doğru şekilde
+ag: ağ
+çövürme: etrafında, çevresinde
+çövre: etrafında, çevresinde
+üstün: üstünde
+saglık bile: mantıklı, sağlıklı
+başka: sız, olmadan
+salamatlık birle: sağlıklı, sağlıkla
+birge: aynı zamanda, birlikte, beraber
+köp: yeterli
+eger: eğer, şayet
+üstünde: üstte olan, üstte(ki)
+tübinde: alttaki
+astında: alttaki
+anın-kibi: böyle, bu şekilde
+neçik: gibi, böyle
+bassa: ve, ayrıca
+illa: ve, ayrıca
+anın bile: onunla birlikte
+yeter: yeterli
+yetmek bile: yeter miktarda
+kızganıp: yetersiz, az, bol olmayan
+eminlik bile: kesin olan, emin olan
+emdi: hemen, şimdi
+tek tek: sık sık, çoğunlukla (Lat. sepe)
+yalguz-ol: sadece o, yalnızca o
+okşaşıb: benzer, benzeyen
+us-bile: akılla, mantıkla, bilgelikle
+inçkelep: ince, narin
+ya-oh: başka, başka türlü, diğer bir
+anda-oh: o zaman
+keç: yavaş, geç
+alay-ese: yine de, buna rağmen (Lat. tamen)
+munça: o kadar
+erte: tam zamanında, doğru zamanda
+senin bile: seninle (birlikte)
+alay-oh: öyle (bir), onun gibi
+falan: böyle, bunun gibi
+kertilep: gerçek, doğru
+kayda: nerede
+kaydan: nereden
+keşke: keşke
+yovaç: karşıda, öbür tarafta
+ya: ya da
+köp: çok
+terklep: hızlı, hızla
+ortu: karşısında
+yarı: karşısında
+men: ben
+menin: benim
+maŋa: bana
+meni: beni
+menden: benden
+biz: biz
+bizig: bizim
+bizge: bize
+bizin: bizi
+bizden: bizden
+sen: sen
+senig: senin
+saŋa: sana
+seni: seni
+ay-sen: hey sen
+senden: senden
+siz: siz
+siziŋ: sizin
+sizge: size
+sizni: sizi
+ay siz: hey siz
+sizden: sizden
+menim: benim
+menimni: benimkini
+ol: o
+anıŋ: onun
+aŋar: ona
+aar: ona
+anı: onu
+andan: ondan
+anlar: onlar
+anlarnın: onların
+anlarga: onlara
+anlarnı: onları
+anlardan: onlardan
+bu: bu
+munıŋ: bunun
+muŋar: buna
+munı: bunu
+mundan: bundan
+bular: bunlar
+bularnıŋ: bunların
+bularga: bunlara
+bularnı: bunları
+bulardan: bunlardan
+bizin: bizim
+biziŋni: bizimkini
+senin: senin
+seniŋni: seninkini
+anıŋ: onunki
+anıŋnı: onunkini
+anlar oh: bizzat onların
+anlarnı oh: bizzat onlarınkini
+özge: diğer, bir diğer
+özgeler: diğerleri
+at: isim
+atnı: ismi
+atlar: isimler
+atlarnı: isimleri
+lahab: lakap
+lahabnı: lakabı
+lahablar: lakaplar
+lahablarnı: lakapları
+ulu: ulu, büyük
+ulunı: uluyu, büyüğü
+ulular: ulular, büyükler
+ulularnı: uluları, büyükleri
+kiçi: küçük
+kiçini: küçüğü
+kiçiler: küçükler
+kiçilerni: küçükleri
+eygi: iyi
+yakşılar: iyiler
+eygiler: iyiler
+yaman: kötü
+yamannı: kötüyü
+yamanlar: kötüler
+tegme: hepsi, tamamı
+barça: hepsi, tamamı
+tegmeni: hepsini, tamamını
+tegmelerni: hepsini, tamamını
+yalguz: yalnız
+yalguznı: yalnızı
+yalguzlar: yalnızlar
+yalguzlarnı: yalnızları
+yalguzlardan: yalnızlardan
+yüŋül: hafif
+yüŋüller: hafifler
+agır: ağır
+fallan: böyle bir
+kaysı: haŋi, nasıl bir
+özge: diğer
+özgeler: diğerleri
+kiçi: küçük
+kiçini: küçüğü
+teŋri: tanrı
+maryam hatun: Meryem Ana
+frişte: melek, eltiŋe ~ eltince
+peygambar: peygamber
+arı algışlı ~ alhışlı: aziz
+haç: haç
+bapaz: papaz
+töre: kanun
+işenmek: umut, ümit
+ömed: umut, ümit
+yarı: yardım
+sadaha: sadaka
+yarlıgamak: merhamet, acıma, şefkat
+bazlık: barış
+sövmekliki: tanrı sevgisi (Lat. caritas)
+yazuk aytmak: gühah çıkarmak
+irar bermek: ikrar etmek
+tolamak ~ tölemek: kutsama, (günahlardan)
+olu kün: bayram günü, kutsal gün
+uçmak: cennet
+tamuk: cehennem
+kök: gökyüzü
+kuyaş: küneş (Lat. sol)
+ay: ay
+yulduz: yıldız
+hawa: hava
+salkon: rüzgar, cereyan
+su: su
+yer: yer
+ot: ateş
+kan: kan
+balkam: balgam
+kursak: mide
+sarı: safra
+savda: melankoli
+yıl: yıl
+ay: ay (zaman birimi)
+kün: gün
+keçe: gece
+tün: gece
+sahat: saat
+oht: saat
+nokta: nokta, an (Lat. punctus)
+taŋ-erte: sabah erkenden
+aş oktı: öğlen
+kün erte: öğlen
+taŋ erte: öğlen
+tüş: öğlen
+ekindü, kinde: ikindi
+akşam: akşam
+keçe: gece
+bukün ~ bukün: bugün
+tünekün, tünekün: dün
+taŋda: sabah
+tanda: sabah
+birisi kün: sabahtan sonra
+tan saravunda: fecir, tan kızıllığı
+hafta (yafta): hafta
+yeti: hafta
+tu şanbe: pazartesi
+şe şanbe: salı
+çaar şanbe: çarşamba
+panşanbe: perşembe
+ayna: cuma
+şabat kün: cumartesi
+yekşanbe: pazar
+ay: ay
+ay-başı: ay başı
+safar ay: ocak
+sövünç ay: şubat
+ilk-yaz ay: mart
+töb ay: nisan
+soŋu-yaz ay: mayıs
+küz ay: haziran
+orta küz ay: temmuz
+son-küz ay: ağustos
+kış ay: eylül
+orta kış ay: ekim
+kurban bayram ay: kasım
+eşük ay: aralık
+körmek: görme (yetisi)
+eşitmek: işitme (duyusu)
+tatmak: tatma (duyusu)
+yılamak ~ ıylamak: koklama (duyusu)
+tutmak: dokunmak
+yıllar sanı: tarih
+kün tovusı: doğu
+kün batısı: batı
+wad: vade, zaman, süre
+ayaz: açık hava
+yarıh: havanın açıklığı, aydınlık
+bulud: bulut
+yamgurlu hava: yağmurlu hava
+karaŋu: karanlık
+bulutlar: bulutlar
+yamgur): yağmur
+kar: kar
+tuman: sis
+çik: çiğ (Lat. prina)
+çık: çiy, şebnem (Lat. rosata)
+yel: yel, rüzgar
+çik: çiğ (çik et: çiğ et)
+karaŋu: karanlık
+yarık hava: aydınlık, açık hava
+yay: yaz
+kış: kış
+cift: çift
+tek: eşit olmayan, farklı, ayrı, tek
+tuş: eşit, denk
+burmış: burulmuş
+bir-kat: tek kat
+ekki kat: iki katlı
+tegirme: yuvarlak
+törtkül: dörtgen
+bütün: bütün
+sınuk: kırık
+buruŋı ~ burunhı: ilk
+ekinçi: ikinci
+togru: düz, doğru, dik
+könü: düz, doğru, dik
+tatlı: tatlı
+açı (I): acı (Lat. acer)
+açı (II): acı (Lat. amarus)
+ehşi: ekşi
+ikti: evcil, domestik; sabırlı, sakin
+keyik: yabani, vahşi hayvan
+algışlı ~ alhışlı: kutsanmış, kutsal
+barahat: kutsanmış, kutsal
+kargışlı: kargışlanmış, kötülenmiş, lanetli
+seyrek: seyrek, nadir
+sık: sık
+tüklü: tüylü
+tüksüz: tüysüz
+yülümiş: tüysüz
+ham: ham, pişmemiş olan
+bişi: pişmiş
+ham: olgun olmayan, olmamış
+çiyg ~ çiig: çiğ, pişmemiş olan, olgun olmayan
+bişi: pişmiş
+yalannaç: çıplak
+kebelmiş: giyinmiş
+şişmiş: şişmiş, şişik
+şişik ketken: şişliği inmiş
+tatıhlı: lezzetli
+tüz: düz
+tarıma: düz olmayan, engebeli
+buruşmuş: kırışık, buruşuk
+kötürülmiş: havaya kaldırılmış
+emdürmiş: indirilmiş
+tikme: dikiş dikme
+yarılgan: yarılmış
+okşaş: benzer
+uşaşı: benzer
+tutsak: tutsak, rehin (Lat. pignus)
+tıknah: tutsak, rehin (Lat. pignus)
+astılan: faizcilik, tefecilik
+rebe: faizcilik, tefecilik
+bütün ülüş: bütün pay, bütün parça (Lat. pars integra)
+yarım: yarım
+üçünçi ülüş: üçüncü pay, parça
+törtünçi ülüş: dördüncü pay, parça
+halgan: arta kalan
+arthan: artan, fazla, gereksiz
+artuk: artan, fazla, gereksiz
+eygilik: iyilik
+körk: güzellik
+uzunluk: uzunluk
+uzun ölçe: uzunluk ölçüsü
+agır: ağırlık
+saglık: sağlık, akıl sağlığı
+ululuk: büyüklük
+keŋlik: genişlik
+agrımak: zayıflık, takatsizlik
+saksızlık: zayıflık, takatsizlik
+ölüm: ölüm
+tirilmek: yaşam, yaşamak
+yaş: yaşam, yaşamak
+ahlık: beyazlık, beyaz olma durumu
+yeyitlik: gençlik, delikanlılık
+yassılık: yassılık
+tatmak: tat, lezzet
+tatıh: tat, lezzet
+neme: şey
+yamanlık: kötülük
+körksizlik: çirkinlik
+kıskalık: kısalık
+çürümek: çürümek
+karımak: yaşlanmak
+kararmak: kararmak
+ooşamak: benzerlik
+yakşı: iyi
+eygi: iyi
+yaman: kötü
+körklü: şirin, güzel
+körksüz: çirkin
+uzun: uzun
+kıska: kısa
+sahsız: güçsüz, zayıf
+yımış ~ ıymış: çürük, çürümüş
+sassımış: çürük, çürümüş
+igit: genç
+abuşka: yaşlı
+kart: yaşlı
+yaş: taze, ıslak
+kuru: kuru
+us (III): ıslak, yaş
+arrı: arı, temiz
+yaŋı: yeni
+(eshi) eski: eski
+semiz: semiz, yağlı
+arıh: zayıf, yağsız
+bazık: şişman, kalın, kaba
+yogan: şişman, kalın, kaba
+inçke: ince
+agır: ağır
+yüŋül: hafif
+oŋ: sağ
+sol: sol
+terk: hızlı
+tez: hızlı
+kahal: yavaş
+katı: katı, sert
+ımışak: yumuşak
+issi: sıcak
+savoh: soğuk
+hoş: hoş, pahalı, değerli
+uçuz: ucuz, değersiz
+bulgamış: bulanık
+yarıh: berrak, bulanık olmayan
+tiri: diri, yaşayan
+ölü: ölü
+baglamış: bağlı
+şeşmiş: çözülmüş, serbest bırakılmış
+cahan: cihan, dünya
+teŋiz: deniz
+tag: dağ
+oba: ova
+eniş: vadi, falez
+çuhur: çukur
+balçuk: balçık
+yol: yol, patika
+yol: yol
+taş: taş
+toz: toz
+toprak: toprak
+terek: ağaç
+yemiş: meyve
+ot: ot, şifalı ot, yabani ot
+otalamak: otlak, mera
+örleş: tepe, tümsek, yükseklik
+eniş: alçak arazi, çukurda kalan yer
+el: il, eyalet, vilayet, taşra
+teyre: çevre, dolay
+yer: yer, mevki, bölge
+şaar: şehir, kent
+kent: şehir, kent
+kalaa: kale
+hala: köy
+saray: saray
+ev: ev
+tukan: dükkan
+konaklık: yatak odası, misafir odası
+tüb: dip, temel, kök
+köprü: köprü
+kuyu: kuyu
+orman: orman
+agaç: odun, tahta, ağaç
+bakça: bahçe, çiçek bahçesi (Far. bacča, Lat. iardinus)
+bakça: bağ, bostan (Far. bag ul borla → bustȃ, Lat. hortus)
+bag: bağ
+borla: üzüm bağı
+saban: saban
+yaz: çayır, çimen, otlak
+makala: sokak
+maydan: meydan
+yol: yolculuk (Lat. carubius)
+alaçuk: kulübe
+hucra: dolap
+çırak: mum
+çagır ~ çahır, şıra, bor: şarap
+çakuç: çeküç
+otluk: çakmak
+kov: kav, fitil, fünye
+kibrit: kibrit
+saraf: banker
+tarazu: terazi
+taşlar: ağırlık parçaları
+bitik: depo kaydı
+taftar: depo kaydı
+duvat: mürekkep kabı
+kalam: kalem
+sanar takta: tahta, masa, hesap tahtası
+kövüz: halı
+nakt: para, sermaye
+akça: para, sermaye
+bakşı: yazıcı, bakşı
+bitikçi: yazıcı, bakşı
+borçlular: borçlular
+taftar: hesap defteri
+kara: mürekkep
+mahak: mihenk taşı (Lat. lapis auri)
+bitik: yazı
+kagıt: kağıt
+atar: aktar
+çömlek: yemek tenceresi
+şakar: şeker
+bal: bal
+burç: biber
+cincibil: zencefil
+darçını: darçın
+gul darçını: gül tarçını
+nil: çivit
+kondrok: buhur
+garanful: karanfil
+raŋ-ı lak: lastik cila, vernik
+sakız: sakız
+hıyar şanba: Hint hıyarı, hıyarşembe (Far. chear y sȃnbar)
+fil tişi: fildişi
+bakam ~ baham: bakkam ağacı, kızılağaç
+balavuz: bal mumu
+açı-taş: şap
+mamuh: pamuk
+şir-i-hişt: kuvvet macunu
+tutiya: çinkosülfat
+zırnık: sarızırnık
+sonbul: hint sümbülü
+kababa: kebabe
+kababa: kebabe
+ravand: ravent
+kanfor: kafur
+vaksıs: kırmız böceği (boyası), koşnil
+mahmuda: mahmude (otu)
+ıpar: misk
+zafran: safran
+oglanlar: uşaklar, hizmetçiler
+otlar: (şifalı) ot
+maacunlar: ağda, macun
+otlar: ilaç
+daru: ilaç
+tövgüç: havan ve havan tokmağı
+tövgüç: havan tokmağı
+keli: havan tokmağı
+elek: süzgeç, elek
+kuburkuç: kutu
+kapuç: kese, torba
+gulaf suvı: gül suyu
+sabur: aloe
+köne suvı: cıva
+karabar: kehribar
+çurunba: acı marul, hindiba (Far. çiurȗba)
+çaman: kimyon, çemen
+zincefr: zincifre
+marcand: kırmızı koral, mercan
+kitire: zamk ağacı
+holıcan: havlıcan
+ambar: cistus, laden zamkı
+imsiri: bitüm
+yag: zeytin yağı
+gulaf yagı: gül yağı
+koz yagı: fındık yağı
+samala: zift
+buya: meyan (kökü)
+kulaf: gül
+üzürmür: Mür ağacı
+turbut: turp
+zaŋar ~ zancar: zencar, bakır yeşili
+ot: merhem (Lat. uŋuentum)
+kövrük: kükürt
+altunçı: kuyumcu, demirci, nalbant
+temirçi: kuyumcu, demirci, nalbant
+örs: örs
+çakuç: çekiç
+kıskaç: kıskaç, pens, kerpeten
+egev: eğe
+kıskaç: kerpeten
+temir: demir
+kümiş: gümüş
+altun: altın
+bahır: bakır
+kalay: kalay
+akkorgaşın: kalay
+korgaşın: kurşun
+yez: pirinç
+biçek: küçük bıçak
+maşa: maşa
+kura: eritme ocağı
+kürük: körük
+kömür: kömür
+tegene ~ tıhana: tekne
+koyan: tavşan
+tonçı: kürkçü
+igine ~ iyne: iğne
+buçkı: bıçkı, makas
+oymak: yüksük
+ip: iplik
+eltiri: koyun postu
+tülkü: tilki
+teyin: sincap
+karateyin: gri/siyah sincap
+kiş: samur
+sansar: zerdeva, sansar
+dele: Martes foina, bir tür gelincik ya da sansar
+silevsün: vaşak
+karsak: korsak tilkisi, step ya da bozkır tilkisi, Vulpes corsac
+kara-küzen: kokarca
+erik: tabak, sepi
+palaŋ: leopar
+teri ton: kürk, kürklü giysi
+derzi: terzi
+çekmen: yünlü kumaş
+bıçkı: makas
+koptı: makas
+karı: arşın
+arşun: arşın
+mondobari: bir tür çizgili kumaş
+lazate: bir tür çizgili kumaş
+veles: pamuklu bez
+töşek: töşek
+yovurgan: yorgan
+etikçi: ayakkabıcı
+kalıp: kalıp
+biz: bez
+etikçi biçek: küçük ayakkabıcı bıçağı
+taban: taban
+sürük: ince, yumuşak deri
+sahtıyan: sahtiyan, cilalı keçi derisi
+koy sürüki: koyun derisi
+etik: ayakkabı, çizme
+başmak: ayakkabı
+etik başı: ayakkabı başı, ucu
+kerki: küçük balta
+balta: balta
+burav: matkap, delici
+bıçkı: testere
+uzun ip: ip
+ütürgü: kalem, keski
+çakuç: çekiç
+pargal: pergel
+üşkü: maraŋoz rendesi
+tokmak: tokmak
+skince: kalem keski
+sakal yülüçi: berber
+yülüŋüç: ustura
+küzgü: ayna
+tas: berber tası
+süŋülçe: neşter
+bilev: bileği
+malaham: merhem (Far. malham)
+kılıç ostası: kılıç yapan demirci
+eyerçi: saraç, eyer yapan kimse
+yügençi: gem yapan kişi
+otaçı: hekim
+otaçı: hekim
+hokumçı: avukat
+sıkrık: kurye, ulak
+yalçı: düğme döken kimse, düğme oyan kimse
+çerçi: çerçi
+astlançı: tefeci
+talal: simsar, tefeci
+miyançı: simsar, tefeci
+börkçi: börk veya şapka yapan kimse
+börk: börk, şapka
+kasap: kasap
+biçekçi: (küçük) bıçak yapan kimse
+şıraçı: şarap satan kimse, şarap satıcısı
+dıvar ostası: duvarcı, duvar yapan kimse
+kazma: (evin temelleri için yapılan) kazı işi
+taş: taş
+kireç: kireç
+nakşlagan: nakkaş
+kalam: fırça
+raŋ: renk
+yelim: tutkal
+baglagan: bağlayan
+çuvalduz: çuvaldız, büyük iğne
+igine ~ iyne: çuvaldız, büyük iğne
+yogun ip: kalın, kaba iplik
+ip: kordon, sicim, tel
+taŋ: denk, balya
+yük: denk, balya
+saadat: küçük değnek, çubuk; alet edavat (Lat. stecha, Far. saadat)
+kendir: kendir, kenevir
+etmekçi: fırıncı, ekmek yapan kimse
+peç: fırın, ocak
+kürek: kürek, fırıncı küreği
+sibürtki: süpürge
+agaçlar: odun
+hamır: hamur (Lat. pasta)
+etmek: ekmek
+kirde: turta
+kirde: pasta
+eker: bitki
+urluk: tohum
+tüb: kök
+terek: ağaç
+hamal: hamal
+kullukçı: hizmetçi, uşak
+yakçı: yay yapan kimse
+ohçı: ok yapan kimse (Lat. frexeterius)
+çıhrıhçı: ağaç tornacısı
+bakçaçı: bahçıvan
+yulahak: dokumacı (Lat. tesitor)
+ırçı: şarkıcı
+kobuzçı: çalgıcı
+oyınçıl maskara: şaklaban
+taf: tef, tanbur
+suruna: çoban kavalı (Far. surna)
+nakara: kastanyet, köçek zili (Far. nachara)
+tamaşa: temaşa, oyun, seyir, gösteri
+külmek: kahkaha, şaka, alay
+eliklemek: alay, şaka, istihza
+tamaşa: eğlence, cümbüş
+burgular: trompet, borazan
+burguça: küçük trompet, borazan
+ersek: fahişe
+murdar: fahişe
+kaltak: pezevenk (kadın), kadın satan kadın
+karabat: randevu evi, genelev
+bitik ostası: okul hocası
+katib: hoca
+olturguçlar: koltuk, bank
+oglanlar: uşaklar (Lat. pueri)
+peşe: el işi, zanaat
+iş: iş, eser
+küç: emek, iş, amel
+işlemek: çalışmak
+kan: kağan, hakan, han
+soltan: kral
+soltan: sultan
+beg: prens, bey
+bey: soylu kimse (Lat. baron, Far. amir)
+çeribaşı: komutan, kumandan
+elçi: elçi
+yarguçı: başkan, vali, yüksek yetkili memur
+şeriat: yargıç, hakim, kadı (Far. chadi)
+bogavul: mübaşir (Far. tataul)
+atlu kişi: süvari
+bey: ev sahibi, efendi
+koca: ev sahibi, efendi
+taç: taç
+orda: belediye binası, senato binası (Far. ordu)
+kan katonı: imparatoriçe
+soltan katonı: kraliçe, sultanın eşi
+evdegi epçi: hizmetçi kadın
+evdegi kız: hizmetçi kadın
+karavaş: hizmetçi kadın, köle
+kuma: hizmetçi kadın, köle
+tılmaç: tercüman (Far. talamaçi)
+bazargan: tüccar, bezirgan
+bazar: pazar
+satuh: ticaret, alışveriş, piyasa
+alıçı: alıcı
+satuhçı: satıcı
+miyançı: aracı, komisyoncu, simsar
+behet: peşinat, kapora
+tölemek: ödeme
+wada: vade, mühlet (Far. aouada)
+nakt: madeni para, sikke
+baha: değer, fiyat (Far. bagha)
+kendir: kendir, kenevir
+çuz: pul, sim, incik boncuk (Far. chep)
+sagrı: deri, kösele (Lat. corium, Far. sagri)
+sınduk: kutu, sandık, dolap (Far. sanduk)
+ügü: uhu, baykuş
+ügü yuŋı: baykuş tüyü
+yez taktası: pirinç levha
+yuŋ: yün
+üsküli: keten
+fanar: fener
+koz: fındık
+nak: bir tür altın brokar
+nasıç: incili altın brokar
+baluk: balık
+yuŋ: (kuş) tüyü
+birinç: pirinç
+ipek: ipek
+last: ham ipek
+fraŋi suf: Avrupa koyun yünü (Far. suf franchi)
+ıskarlat: kırmızıya yakın renk
+ters: bir çeşit bez
+kövrük: kükürt
+conban keteni: Champagne’den gelen keten
+russi keten: Rus keteni
+alamanı keteni: Alman keteni
+orlens keten: Orléans’tan gelen keten
+lonbardi keteni: Lombardy keteni
+astezan keteni: Asti keteni
+ostune keteni: Estonya keteni
+katifa: kadife
+raŋlar: renkler
+raŋ: renk
+ak: ak
+kara: kara
+kızıl: kızıl
+krımızı: bir ton kırmızı (Lat. ve Far. cremixi)
+bakami ~ bahami: bir ton kırmızı
+kök: mavi
+sarı: sarı
+yaşıl: yeşil
+bozah: gri
+ipkin: mor
+naranci: turuncu
+al: açık kırmızı
+bergonya keteni: Begonya keteni
+bergamaske keteni: Bergamaske keteni
+araklı: bir tür keten
+kan keteni: imperyal keten, imparatorluk keteni
+yakut: yakut, rübi
+lal: Badahşan’dan gelen yakut
+kabut yapkut: safir
+zumrut: zümrüt
+yalmas: elmas
+becuda: grena
+pıroza: firuze, turkuvaz
+laal: değerli taş
+bolor: kristal
+iŋçü: inci
+yıltrın: cam
+azam: insan
+kişi: insan
+epçi: kadın, eş
+erkek: erkek
+er: erkek
+tişi: dişi
+bogum: uzuv, organ; boğum, eklem
+buvun: uzuv, organ; boğum, eklem
+baş: baş, kafa
+elat: özsu
+saç: saç, sakal
+tebe: saç (Lat. crinis), saç bandı (Far. muiband)
+alnı: alın
+magley: alın
+kaş: kaş
+kirpik: kirpik
+kulah: kulak
+köz: göz
+köz yaruhı: göz ışığı, fer
+burun: burun
+ernin: burun deliği
+yaŋak: yanak
+yaah: yanak
+agız: ağız
+toodak: dudak
+erni: diş eti
+tiş: diş
+til: dil
+meŋ: ben, et beni
+erlik: doğa, karakter, huy, tabiat (Lat. natura)
+karmadım: elimle dokundum, elimle yokladım
+yaak: çene
+karabat: fahişe
+bogaz: boğaz
+tamak: boğaz
+sahak ~ sagak: çene altı (Lat. mentum)
+boyın: boyun, gerdan
+arka ~ arha: sırt, sırtın üst tarafı
+töş: sine, göğüs, döş
+emçek: meme ucu
+töş: döş (Lat. forcella)
+kindik: göbek
+karın: batın, mide
+boy: beden, vücut, gövde
+kursak: mide
+köŋül: kalp, gönül
+ciger: (kara)ciğer
+cigar band: akciğer (Lat. pulmoneus)
+içek: bağırsak
+suçuh: bağırsak
+teri: deri
+sik: erkeklik organı, penis
+taşak: testis
+amu: kadın cinsellik organı
+köti: kaba et, kıç
+kol: kol
+koymıç: kuyruk sokumu
+tamar: damar
+kan: kan
+sövek: kemik
+et: et
+ovuç: yumruk
+el: el
+kol: el
+aya: aya, avuç içi
+barmak: parmak
+buvuh: eklem
+siŋir: sinir
+tırnak: tırnak
+nafas: nefes
+bel: böbrek (Lat. renis)
+kaburka: kaburga
+kursak: mesane, sidiktorbası
+sidik: sidik
+boh: dışkı
+but: uyluk, baldır
+tizgi: diz
+konç: baldır
+çıhmak: ağım, ayaküstü
+ayak ~ ayah: ayak
+ayah üzi: ağım
+sovunçak: topuk
+barmak: ayak parmağı
+taban: ayak tabanı
+tin: ruh
+meyiz: surat
+çiray: surat
+sakal: sakal
+yaş: göz yaşı
+ter: ter
+naffas: soluk, nefes
+boy: kişi, zat
+atta: baba
+anna: anne
+er: koca, erkek eş
+epçi: karı, kadın eş
+çiney: karı, kadın eş
+ogul: erkek evlat
+kız: kız evlat
+karandaş: erkek kardeş
+kız karandaş: kız kardeş
+ullu atta: büyük baba
+kayın: kayınpeder, kaynata
+küyegü: damat
+abaga: dayı
+ini: yeğen, torun
+egeçi: hala
+tagay: amca çocuğu, kuzen
+yezne: dayı (Lat. cognatus)
+oynaş: sevgili, metres
+küni: sevgili, metres
+nöker: yoldaş
+konşı: komşu
+kisim: kaynana, kayınvalide
+tükel: tam, eksiksiz
+yakşı: iyi, güzel
+eygi: iyi, güzel
+barlu kişi: zeŋin, varlıklı
+bay: zeŋin, varlıklı
+ustlu: akıllı
+akıl: akıllı
+körklü: güzel
+halal ogul: yasal evlat
+könü: yasal, yasaya uygun
+özden: soylu, asil; ünlü, meşhur, tanınmış
+erdemli: erdemli
+naamatlu: merhametli, iyi yürekli, lütufkar
+küçlü: güçlü, kuvvetli
+tökme: hünerli, becerikli (Far. honarmand)
+comard: cömert
+aşuk: aşık
+tez: tez, hızlı
+tanur kişi: deneyimli kişi
+sövver kişi: dost
+erseksiz: iffetli, namuslu
+kılıklı: ahlaklı, terbiyeli, görgülü, namuslu, dürüst; saygın, saygıdeğer,
+hamuş tözümlü kişi: barışçıl, sakin kişi; sabırlı, sebatlı kişi
+sevünür kişi: mutlu kişi
+uz kişi: ehil, becerikli kişi
+bahatur: yiğit, cesur
+yaman: kötü
+yarlı: yoksul, fakir
+yoksul: yoksul, fakir
+kart: yaşlı
+abuşka: yaşlı
+teli: deli, aptal, ahmak
+akmak: deli, aptal, ahmak
+badbakt: mutsuz
+çirkin: çirkin
+rustay: çiftçilikle alakalı
+kahal: değersiz, ucuz
+sust: tembel, üşeŋeç, bezgin
+sahsız: zayıf, hasta, cılız
+kelepen: cüzamlı
+taz: kel
+sokur: şaşı
+çalış: şaşı
+közsiz: kör
+kor: kör
+tövlük, kotur: kör, görme eŋelli
+ahsah: aksak, topallayan
+burnı kiçi: burnu küçük olan, küçük burunlu
+taşaksız: hadım
+kaltak: kadın satan (erkek)
+koturlu: uyuz (hastalığına yakalanmış)
+kulaksız: sağır
+tilsiz: dilsiz
+beyliten kırtan: yararsız, faydasız, işe yaramaz, gereksiz
+bükrü: kambur
+ötrükçi: yalancı
+olu köŋüllü: yüce, azametli, kibirli
+bahıl: kıskanç, açgözlü
+ızarlı: kıskanç, açgözlü
+suh kişi: aç gözlü, hırslı
+fus: cimri, pinti, hasis; tamahkar
+ersekçi: iffetsiz kişi
+tumışmış: huysuz
+yazuklu: günahkar
+egriksi: gerçek olmayan, sahte
+yazuklu: günahkar
+garip: yabancı, tanıdık olmayan
+yat: yabancı, tanıdık olmayan
+çeyri: ordu
+sançış: muharebe, cenk
+allam: bayrak, sancak
+tov: bayrak, sancak
+haşal: nöbetçi
+kosak: nöbetçi
+sagıt: silah
+sirdek ~ şirdek: örtü
+yaga ~ yaha: (zırhtaki) yaka
+tovulga: miğfer
+kübe: halkalı zırh (Far. xire)
+bütülük: göğüs zırhı, cebe
+kılıç: kılıç
+biçek: hançer
+yaa: yay
+izba: oda, kulübe
+bohorık: şömine, ocak
+dıvar: duvar
+yuzak: kilit
+açkuç: anahtar
+kadav: askı çivisi
+olturguç: bank
+sınduk: sandık, dolap
+töşek: döşek
+oprak: yem (Lat. foratura, Far. astar)
+teri-ton: kürklü giysi (Lat. penna)
+tüvme: düğme
+yeŋ: elbise yeni
+tikmek: dikme elbise
+tüb: temel
+taş: taş
+kireç: kireç
+kum: kum
+su: su
+agaç: tahta, ahşap (Lat. trauus, Far. çouu)
+takta kaŋa: tahta levha, kalas
+tik agaç: direk, sütun
+kerpiç: kiremit
+tam: dam
+sufra: kadınlar odası (Lat. caminata, Far. sufra)
+katra: kadınlar odası (Lat. caminata, Far. sufra)
+agıŋıç: merdiven
+taraca: balkon
+tuluk: balkon
+dıvar: duvar
+avrez: hela, tuvalet
+kövlek: gömlek
+könçek: pantolon
+oprak: giysi
+bel-bagı ~ belibag: kuşak
+yançık: kese, para kesesi
+kepes ~ kepeş: kukuleta (Lat. cappellus)
+börk: kukuleta (Lat. cappellus)
+çalma: baş örtüsü (Far. dulband)
+wat: ottan yapılan bir tür ayakkabı (Lat. calige)
+çulgav: dolama şeklinde çorap
+etik: çizme
+başmak: ayakkabı
+tizge: çorap bağı
+artmak: çıkın
+yasman: yassı şişe
+çatır: çadır
+kamçı: kamçı
+kamar: kemer
+sagıt: donanım, teçhizat, özel olarak: koşum takımı
+araba: araba
+at: at
+naal: nal
+mıh: çivi (Lat. clavus)
+kadav: çivi (Lat. clavus)
+ayıran: atların durduğu bölme
+eyer yabohı: eyer örtüsü
+kaşrav ~ kaşravu: kaşağı (Far. chasragu)
+nokta: yular
+yügen: gem
+eyer: dizgin, yular, gem
+topra: torba
+kişen: köstek
+tizgin: dizgin
+halka: halka
+toha: halka
+aguzluh: ağızlık
+tüvme: düğüm
+saçak: püskül, saçak
+eyerniŋ agaçı: eyer konulacak yer
+alındagı kaş: ön eyer kaşı
+artındagı kaş: arka eyer kaşı
+kiyiz: keçe örtü
+yabokı: eyer örtüsü
+üzeŋi: üzeŋi
+toha tili: toka çeŋeli
+teşmek: delik (Lat. foramen, Far. sulach)
+kömüldrük: gömüldürük
+toha: toka
+koyışkan: kuskun (Lat. posna, Far. paldomb)
+ayıl: kuşak, kemer
+yıŋırçak: kürtün, yük hayvanlarına vurulan semer, palan
+töşek: döşek
+töşekniŋ ayahı: yatağın uç kısmı, ayak tarafı
+salam: saman
+yastuk: yastık
+çarşav: yatak örtüsü, çarşaf (Far. çiarzau)
+yovurgan: yorgan
+kilim: kilim
+halı: halı
+kövüz: halı
+köşegen: cibinlik
+hasır: halı, hasır
+yegen: halı, hasır
+sınduk: sandık
+tastar: masa örtüsü
+sarpan: masa örtüsü
+yıltrın: şişe
+şişe: şişe
+piyala: bardak, kupa, kadeh
+bardak: bardak
+çıraklık: şamdan
+çırak: mum
+tabak: tabak
+aş: besin, yemek, aş
+kazan: kazan
+tegene ~ tıhana: su teknesi
+çömiç: kepçe
+kaşuk: kaşık
+çömlek: tencere, büyük tencere
+yaglaw: tava
+tövgüç: havan
+keli: havan tokmağı
+kazan ayak: kazan altlığı
+oçak: kazan altlığı
+çanak: çanak, tas
+zincil: zincir
+kavurkına: kavurmaya veya kızartmaya yarayan tava
+balta: balta
+bohorık: yemek pişirmek için açık ocak, şömine (Bodr. oven, stove)
+tütün: duman
+yalın: alev
+yırgak: çengel
+tepsi: tepsi
+terek: ağaç
+tüb: ağaç kökü
+butak: ağaç dalı
+yabuldrak: yaprak
+agaç: tahta, ahşap (Lat. lignum)
+kabuk: ağaç kabuğu
+iç: ağacın iliği, özü
+beyiklük: ağacın büyüklüğü, yüksekliği
+kölege: gölge
+yemiş: (ağacın) meyve(si)
+kiras: kiraz
+armut: armut
+kertme: armut
+alma: elma
+nardan: nar
+be: ayva
+çatlavuk: fındık
+koz: ceviz
+şaftalu: şeftali (Far. saftalu di rusta)
+şaftalu: şeftali
+erik: erik
+mişmiş: kayısı
+incir: incir
+şüşüm ~ yüzüm: üzüm
+kuru şüşüm ~ yüzüm: kuru üzüm
+kastana: kestane
+horma: hurma
+badam: badem
+hıyar: salatalık, hıyar (Far. chear)
+narinç: portakal
+limon: limon
+novma: portakal
+pıstak: fıstık (Far. festuc)
+kovun: kavun
+sadaf: sedef otu
+yışkıç: nane
+salg ~ salh: ada çayı (Far. salg)
+ıspanak: ıspanak
+maŋdan: maydanoz (Far. mandan)
+marul: marul
+şalham: şalgam, pancar
+samuk: şalgam, pancar
+kabak: kabak
+çügündür: kırmızı pancar, şalgam
+lahan: lahana
+sarmısak: sarımsak
+sogan: soğan, yabani soğan
+yova: soğan, yabani soğan
+razıyana: rezene (Far. raziana)
+canavar: vahşi hayvan (Far. ayvan)
+at: at
+arstlan: aslan
+kıstrak: kısrak (Lat. leopardus, Far. madian)
+kıstrak: kısrak (Lat. jumenta, Far. madian)
+katır: katır
+eşek: erkek eşek
+tişi eşek: dişi eşek
+tişi katır: dişi katır
+toŋuz: domuz
+keyik toŋuz: yaban domuzu
+tişi toŋuz: dişi domuz
+öküz: öküz, sığır (Lat. bos)
+sıgır: öküz, sığır (Lat. bos)
+inek: inek
+buzav ~ buzavu: buzağı
+tişi koy: (dişi) koyun
+koçkar: koç
+koy: koyun
+kozı: kuzu
+eçki: teke, erkek keçi
+tişi eçki: dişi keçi
+ogolak: oğlak
+it: köpek
+tişi maçı: dişi kedi
+maçı: erkek kedi
+pil: fil
+töve: deve
+sazagan: ejderha, dragon
+irs: vaşak (Far. yrs)
+ayu: ayı
+maymun: maymun
+börü: kurt
+koyan: tavşan
+kara küzen: kokarca
+su-sıgır: manda, bizon, bufalo
+közsiz, opea: köstebek (Far. coram)
+sıçkan: sıçan
+boga ~ boha: boğa
+kurt: kurtçuk
+sazagan: yılan
+yıllan: yılan
+çibin: sinek
+bit: bit
+bürçe: pire
+sürüçibin: sivrisinek
+kandala: tahta kurusu
+çıpçık: kuş
+karakuş: kartal
+balaban: doğan, şahin
+karçıka: doğan, şahin
+kırgıy: atmaca
+çura: küçük atmaca
+sar: doğan, şahin
+sar: akbaba
+turna: turna
+yabalak: kukumav
+çil: keklik
+kaz: kaz
+tavuk: tavuk
+horoz: horoz
+balaçuk: piliç, tavuk
+soŋur ~ sonhur: doğan
+tavus: tavus kuşu
+sövlün: sülün
+sıgırçık: sığırcık (Lat. colunbus)
+bulbul: bülbül
+totu: papağan
+saka: saka kuşu
+korguy: bülbül
+boday: buğday
+bugday: buğday, tahıl
+aşlık: buğday, tahıl
+arpa: arpa
+tuturgan: pirinç
+birinc: pirinç
+tüvi: darı lapası
+tü: darı lapası
+nohut: nohut
+marcumak: mercimek
+burçak: dolu
+un: un
+kebek: kepek
+ovus: çavdar
+süt: süt
+yugurt: yoğurt
+biçen: kuru ot, saman
+tarı: darı
+suvlu: kılçıksız buğday, triticum spelta
+koptaluk: un ve etten yapılan bir yemek (Far. coptaluc)
+keşke eşitke-ediŋ: keşke işitecek olsaydın
+yazuktan peşman bolmak: günahtan pişman olmak
+küniden tovgan: piç
+bernelü-men: verecekliyim, borçluyum
+kim maga berse mende agar bereyim kim maga bermezse mende agar bermen: kim bana verirse ben de ona veririm, kim bana vermezse ben de ona vermem
+ançagına ~ ançahına: biraz, birazcık
+monçagına ~ monçahına: biraz, birazcık
