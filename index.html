@@ -327,21 +327,20 @@ function searchWord() {
         searchWord();
       }
     });
-    searchInput.addEventListener('input', function(e) {
-      let processed = processInput(this.value);
-      measureSpan.textContent = processed;
-      const textWidth = measureSpan.offsetWidth;
-      const maxWidth = searchInput.clientWidth - 20;
-      if (textWidth <= maxWidth) {
-        lastValidValue = processed;
-        this.value = processed;
-      } else {
-        this.value = lastValidValue;
-      }
-      updateGhostAsterisk();
-      searchWord();
+    if (searchInput) {
+    searchInput.addEventListener('input', function () {
+        const maxChars = getMaxChars();
+        if (this.value.length > maxChars) {
+            this.value = this.value.substring(0, maxChars);
+        }
     });
-
+}
+window.addEventListener('resize', function () {
+    const maxChars = getMaxChars();
+    if (searchInput.value.length > maxChars) {
+        searchInput.value = searchInput.value.substring(0, maxChars);
+    }
+});
     let lastSelectionStart = 0;
     let lastSelectionEnd = 0;
 
@@ -404,50 +403,35 @@ function searchWord() {
       }
     });
     searchInput.addEventListener('paste', function (e) {
-  e.preventDefault();
-  let pastedText = (e.clipboardData || window.clipboardData).getData('text');
-  let processedPaste = processInput(pastedText);
+    e.preventDefault();
+    let pastedText = (e.clipboardData || window.clipboardData).getData('text');
 
-  const startPos = this.selectionStart;
-  const endPos = this.selectionEnd;
-  
-  const newValue = 
-    this.value.slice(0, startPos) + 
-    processedPaste + 
-    this.value.slice(endPos);
+    const maxChars = getMaxChars(); // Dinamik karakter sınırı
+    const startPos = this.selectionStart;
+    const endPos = this.selectionEnd;
 
-  this.value = newValue;
-  lastValidValue = newValue;
+    let newValue = this.value.slice(0, startPos) + pastedText + this.value.slice(endPos);
 
-  const newCursorPos = startPos + processedPaste.length;
-  this.setSelectionRange(newCursorPos, newCursorPos);
+    if (newValue.length > maxChars) {
+        newValue = newValue.substring(0, maxChars);
+    }
 
-  updateGhostAsterisk();
-  searchWord();
+    this.value = newValue;
+    lastValidValue = newValue;
+
+    const newCursorPos = Math.min(startPos + pastedText.length, maxChars);
+    this.setSelectionRange(newCursorPos, newCursorPos);
+
+    updateGhostAsterisk();
+    searchWord();
 });
 
-searchInput.addEventListener('paste', function (e) {
-  e.preventDefault();
-  let pastedText = (e.clipboardData || window.clipboardData).getData('text');
-  let processedPaste = processInput(pastedText);
 
-  const startPos = this.selectionStart;
-  const endPos = this.selectionEnd;
-  
-  const newValue = 
-    this.value.slice(0, startPos) + 
-    processedPaste + 
-    this.value.slice(endPos);
-
-  this.value = newValue;
-  lastValidValue = newValue;
-
-  const newCursorPos = startPos + processedPaste.length;
-  this.setSelectionRange(newCursorPos, newCursorPos);
-
-  updateGhostAsterisk();
-  searchWord();
-});
+function getMaxChars() {
+    const baseCharWidth = 8; // Ortalama karakter genişliği (px)
+    const padding = 20; // Sağ ve sol padding payı
+    return Math.floor((searchInput.clientWidth - padding) / baseCharWidth);
+}
 
 
     function addFilterBox(fileName) {
