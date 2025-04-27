@@ -1,463 +1,544 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bitionary</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Gabarito';
-      user-select: none;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-    }
-    html, body {
-      background-color: #121212;
-      color: #ffffff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      overflow: hidden;
-      position: relative;
-    }
-    ::selection {
-      background: var(--selection-bg);
-    }
-    #filter-boxes-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  max-width: 800px;
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitionary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=close" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Gabarito';
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+      }
+      html, body {
+        background-color: #121212;
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+      }
+      ::selection {
+        background: var(--selection-bg);
+      }
+      #filter-boxes-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        max-width: 800px;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #121212;
+        padding: 10px;
+        z-index: 1000;
+      }
+      @keyframes fadeInScale {
+        from {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      @keyframes fadeOutScale {
+        from {
+          opacity: 1;
+          transform: scale(1);
+        }
+        to {
+          opacity: 0;
+          transform: scale(0.5);
+        }
+      }
+      .filter-box {
+        border: 0.7px solid #888;
+        color: white;
+        padding: 2px 6px;
+        font-size: 0.7rem;
+        display: inline-flex;
+        outline: none !important;
+        -webkit-tap-highlight-color: transparent;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        min-width: 30px;
+        transition: background-color 0.2s;
+        cursor: pointer;
+        animation: fadeInScale 0.3s ease-out;
+      }
+      .filter-box:hover {
+        background-color: #3a3e41;
+      }
+      .filter-box span.material-symbols-outlined {
+        margin-left: 5px;
+        font-size: 0.7rem;
+        outline: none;
+      }
+      .input-container {
+        position: relative;
+        width: 80%;
+        max-width: 400px;
+        margin: 20px 0;
+      }
+      #search {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        font-size: 1rem;
+        background: transparent;
+        color: white;
+        outline: none;
+      }
+      #search::placeholder {
+        color: white;
+        opacity: 0.5;
+      }
+      #ghost-asterisk {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
+        color: white;
+        opacity: 0.5;
+        font-size: 1rem;
+        display: none;
+      }
+      .results-container {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        max-width: 500px;
+        position: relative;
+      }
+      #results {
+        flex: 1;
+        list-style: none;
+        padding: 0;
+        max-height: 240px;
+        overflow-y: auto;
+        border-radius: 5px;
+        padding-right: 12px;
+      }
+      .word-item:first-child {
+        margin-top: 0;
+      }
+      .word-item:last-child {
+        margin-bottom: 0;
+      }
+      #results::-webkit-scrollbar {
+        width: 4px;
+      }
+      #results::-webkit-scrollbar-track {
+        background: #222;
+        border-radius: 4px;
+      }
+      #results::-webkit-scrollbar-thumb {
+        background: #666;
+        border-radius: 4px;
+      }
+      .word-item {
+        background: #1e1e1e;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
+      }
+      .word-item:hover {
+        background: #333;
+      }
+      .word-item:focus {
+        outline: none;
+      }
+      .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        margin-right: 10px;
+      }
+      .blue {
+        background-color: #0F4F59;
+      }
+      .green {
+        background-color: #0F5915;
+      }
+      .red {
+        background-color: #8C2B11;
+      }
+      .yellow {
+        background-color: #8C8411;
+      }
+      .purple {
+        background-color: #691689;
+      }
+      .orange {
+        background-color: #AB5E0A;
+      }
+      .pink {
+        background-color: #E75480;
+      }
+      #info-button {
   position: fixed;
-  top: 0;
+  top: 15px;
   left: 50%;
   transform: translateX(-50%);
-  background: #121212;
-  padding: 10px;
-  z-index: 1000;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 1100;
+  transition: background 0.3s;
+}
+#info-button:hover {
+  background: #555;
 }
 
-@keyframes fadeInScale {
-  from {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+#info-modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  z-index: 1200;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#info-content {
+  background: #222;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
 }
 
-@keyframes fadeOutScale {
-  from {
-    opacity: 1;
-    transform: scale(1);
-  }
-  to {
-    opacity: 0;
-    transform: scale(0.5);
-  }
-}
-
-    .filter-box {
-      border: 0.7px solid #888;
-      color: white;
-      padding: 2px 6px;
-      font-size: 0.7rem;
-      display: inline-flex;
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
-      align-items: center;
-      justify-content: space-between;
-      border-radius: 5px;
-      min-width: 30px;
-      transition: background-color 0.2s;
-      cursor: pointer;
-      animation: fadeInScale 0.3s ease-out;
-    }
-    .filter-box:hover {
-  background-color: #3a3e41;
-    }
-    .filter-box span.material-symbols-outlined {
-      margin-left: 5px;
-      font-size: 0.7rem;
-      outline: none;
-    }
-    .input-container {
-      position: relative;
-      width: 80%;
-      max-width: 400px;
-      margin: 20px 0;
-    }
-    #search {
-      width: 100%;
-      padding: 10px;
-      border: none;
-      font-size: 1rem;
-      background: transparent;
-      color: white;
-      outline: none;
-    }
-    #search::placeholder {
-      color: white;
-      opacity: 0.5;
-    }
-    #ghost-asterisk {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      transform: translateY(-50%);
-      color: white;
-      opacity: 0.5;
-      font-size: 1rem;
-      display: none;
-    }
-    .results-container {
-      display: flex;
-      align-items: center;
-      width: 80%;
-      max-width: 500px;
-      position: relative;
-    }
-    #results {
-      flex: 1;
-      list-style: none;
-      padding: 0;
-      max-height: 240px;
-      overflow-y: auto;
-      border-radius: 5px;
-      padding-right: 12px;
-    }
-    .word-item:first-child {
-      margin-top: 0;
-    }
-    .word-item:last-child {
-      margin-bottom: 0;
-    }
-    #results::-webkit-scrollbar {
-      width: 4px;
-    }
-    #results::-webkit-scrollbar-track {
-      background: #222;
-      border-radius: 4px;
-    }
-    #results::-webkit-scrollbar-thumb {
-      background: #666;
-      border-radius: 4px;
-    }
-    .word-item {
-      background: #1e1e1e;
-      padding: 10px;
-      margin: 5px 0;
-      border-radius: 5px;
-      transition: all 0.3s;
-      display: flex;
-      align-items: center;
-      cursor: pointer;
-      outline: none;
-      -webkit-tap-highlight-color: transparent;
-    }
-    .word-item:hover {
-      background: #333;
-    }
-    .word-item:focus {
-      outline: none;
-    }
-    .dot {
-      width: 10px;
-      height: 10px;
-      border-radius: 50%;
-      flex-shrink: 0;
-      margin-right: 10px;
-    }
-    .blue { background-color: #0F4F59; }
-    .green { background-color: #0F5915; }
-    .red { background-color: #8C2B11; }
-    .yellow { background-color: #8C8411; }
-    .purple { background-color: #691689; }
-    .orange { background-color: #AB5E0A; }
-    .pink { background-color: #E75480; }
-  </style>
-</head>
-<body>
-  <div id="filter-boxes-container"></div>
-  <div class="input-container">
-    <input type="text" id="search" placeholder="yaz buraya...">
-    <span id="ghost-asterisk">*</span>
-  </div>
-  <div class="results-container">
-    <ul id="results"></ul>
-  </div>
-  <script>
-    let dictionary = {};
-    let excludedFilters = [];
-    const files = [
-      { name: 'DLT.txt', color: 'blue' },
-      { name: 'ET (I).txt', color: 'green' },
-      { name: 'ET (II).txt', color: 'red' },
-      { name: 'ET (III).txt', color: 'yellow' },
-      { name: 'ET (IV).txt', color: 'purple' },
-      { name: 'EDAL.txt', color: 'orange' },
-      { name: 'CC.txt', color: 'pink' }
-    ];
-
-    const searchInput = document.getElementById('search');
-
-async function loadDictionary() {
-  for (const file of files) {
-    const response = await fetch(`vocabulary/${file.name}`);
-    const text = await response.text();
-    text.split('\n').forEach(line => {
-      let [word, meaning] = line.split(':');
-      if (word && meaning) {
-        const key = word.trim() + ':';
-        if (!dictionary[key]) {
-          dictionary[key] = [];
-        }
-        dictionary[key].push({
-          meaning: meaning.trim(),
-          color: file.color,
-          file: file.name
-        });
-      }
-    });
-  }
-  dictionary = Object.fromEntries(Object.entries(dictionary).sort());
-}
-    function getRandomColor() {
-  return `hsl(${Math.floor(Math.random() * 360)}, 100%, 18%)`;
-}
-document.documentElement.style.setProperty("--selection-bg", getRandomColor());
-
-document.addEventListener("selectionchange", () => {
-  if (window.getSelection().toString().length > 0) {
-    document.documentElement.style.setProperty("--selection-bg", getComputedStyle(document.documentElement).getPropertyValue("--selection-bg"));
-  }
+    </style>
+  </head>
+  <body>
+    <div id="filter-boxes-container"></div>
+    <div class="input-container">
+      <input type="text" id="search" placeholder="yaz buraya...">
+      <span id="ghost-asterisk">*</span>
+    </div>
+    <div class="results-container">
+      <ul id="results"></ul>
+    </div>
+    <button id="info-button">i</button>
+    <div id="info-modal">
+      <div id="info-content">
+        <h1>Site Bilgisi</h1>
+        <p>Burası site hakkında açıklama yapacağınız alan. İstediğiniz yazıyı buraya koyabilirsiniz.</p>
+      </div>
+    </div>
+    <script>
+      let dictionary = {};
+      let excludedFilters = [];
+      const files = [
+        { name: 'DLT.txt', color: 'blue' },
+        { name: 'ET (I).txt', color: 'green' },
+        { name: 'ET (II).txt', color: 'red' },
+        { name: 'ET (III).txt', color: 'yellow' },
+        { name: 'ET (IV).txt', color: 'purple' },
+        { name: 'EDAL.txt', color: 'orange' },
+        { name: 'CC.txt', color: 'pink' }
+      ];
+      const infoButton = document.getElementById('info-button');
+      const infoModal = document.getElementById('info-modal');
+      const searchInput = document.getElementById('search');
+      infoButton.addEventListener('click', (e) => {
+  e.stopPropagation();
+  infoModal.style.display = 'flex';
 });
 
-    const measureSpan = document.createElement('span');
-    measureSpan.style.visibility = 'hidden';
-    measureSpan.style.position = 'absolute';
-    measureSpan.style.whiteSpace = 'pre';
-    measureSpan.style.fontSize = window.getComputedStyle(searchInput).fontSize;
-    measureSpan.style.fontFamily = window.getComputedStyle(searchInput).fontFamily;
-    document.body.appendChild(measureSpan);
+infoModal.addEventListener('click', () => {
+  infoModal.style.display = 'none';
+});
 
-    let lastValidValue = "";
-
-    function processInput(input) {
-  return input.replace(/I/g, 'ı')
-              .toLowerCase()
-              .replace(/[^a-zçğıöşüėŋ ]/g, ''); // Noktalama işaretleri ve özel karakterleri engelle
-}
-
-    function updateGhostAsterisk() {
-      const ghostAsterisk = document.getElementById('ghost-asterisk');
-      const value = searchInput.value;
-      if (value === "") {
-        ghostAsterisk.style.display = "none";
-        return;
+// Modal içeriğine tıklayınca kapanmaması için:
+document.getElementById('info-content').addEventListener('click', (e) => {
+  e.stopPropagation();
+});
+      async function loadDictionary() {
+        for (const file of files) {
+          const response = await fetch(`vocabulary/${file.name}`);
+          const text = await response.text();
+          text.split('\n').forEach(line => {
+            let [word, meaning] = line.split(':');
+            if (word && meaning) {
+              const key = word.trim() + ':';
+              if (!dictionary[key]) {
+                dictionary[key] = [];
+              }
+              dictionary[key].push({
+                meaning: meaning.trim(),
+                color: file.color,
+                file: file.name
+              });
+            }
+          });
+        }
+        dictionary = Object.fromEntries(Object.entries(dictionary).sort());
       }
-      measureSpan.textContent = value;
-      const textWidth = measureSpan.offsetWidth;
-      ghostAsterisk.style.left = (10 + textWidth) + "px";
-      ghostAsterisk.style.display = "block";
-    }
 
-    function normalizeQuery(query) {
-  return query
-    .replace(/e/g, '[eė]')  // 'e' harfi hem 'e' hem 'ė' olarak aranır
-    .replace(/n/g, '[nŋ]'); // 'n' harfi hem 'n' hem 'ŋ' olarak aranır
-}
+      function getRandomColor() {
+        return `hsl(${Math.floor(Math.random() * 360)}, 100%, 18%)`;
+      }
+      document.documentElement.style.setProperty("--selection-bg", getRandomColor());
 
-function searchWord() {
-  const query = searchInput.value.replace('*', '').toLowerCase();
-  const normalizedQuery = normalizeQuery(query); // Yeni normalizasyon fonksiyonunu kullan
-  const results = document.getElementById('results');
-  results.innerHTML = '';
-  if (query === '') return;
-  
-  let count = 0;
-  Object.keys(dictionary).forEach(word => {
-    dictionary[word].forEach(entry => {
-      if (excludedFilters.includes(entry.file)) return;
-      
-      let searchField = searchByMeaning ? entry.meaning.toLowerCase() : word.toLowerCase();
-      if (searchField.match(new RegExp(normalizedQuery)) && count < 50) {
-        const li = document.createElement('li');
-        li.classList.add('word-item');
-        li.innerHTML = `
-          <span class='dot ${entry.color}'></span>
-          <span class='text-content'><b>${word}</b> ${entry.meaning}</span>
-        `;
-        li.addEventListener('click', () => {
-          if (!excludedFilters.includes(entry.file)) {
-            excludedFilters.push(entry.file);
-            addFilterBox(entry.file);
-            searchWord();
+      document.addEventListener("selectionchange", () => {
+        if (window.getSelection().toString().length > 0) {
+          document.documentElement.style.setProperty("--selection-bg", getComputedStyle(document.documentElement).getPropertyValue("--selection-bg"));
+        }
+      });
+
+      const measureSpan = document.createElement('span');
+      measureSpan.style.visibility = 'hidden';
+      measureSpan.style.position = 'absolute';
+      measureSpan.style.whiteSpace = 'pre';
+      measureSpan.style.fontSize = window.getComputedStyle(searchInput).fontSize;
+      measureSpan.style.fontFamily = window.getComputedStyle(searchInput).fontFamily;
+      document.body.appendChild(measureSpan);
+
+      let lastValidValue = "";
+
+      function processInput(input) {
+        return input.replace(/I/g, 'ı')
+                    .toLowerCase()
+                    .replace(/[^a-zçğıöşüėŋ :;-]/g, '');
+      }
+
+      function updateGhostAsterisk() {
+        const ghostAsterisk = document.getElementById('ghost-asterisk');
+        const value = searchInput.value;
+        if (value === "") {
+          ghostAsterisk.style.display = "none";
+          return;
+        }
+        measureSpan.textContent = value;
+        const textWidth = measureSpan.offsetWidth;
+        ghostAsterisk.style.left = (10 + textWidth) + "px";
+        ghostAsterisk.style.display = "block";
+      }
+
+      function normalizeQuery(query) {
+        return query
+          .replace(/e/g, '[eė]')
+          .replace(/n/g, '[nŋ]');
+      }
+
+      function searchWord() {
+        const query = searchInput.value.replace('*', '').toLowerCase();
+        const normalizedQuery = normalizeQuery(query);
+        const results = document.getElementById('results');
+        results.innerHTML = '';
+        if (query === '') return;
+        
+        let count = 0;
+        Object.keys(dictionary).forEach(word => {
+          dictionary[word].forEach(entry => {
+            if (excludedFilters.includes(entry.file)) return;
+            let searchField = searchByMeaning ? entry.meaning.toLowerCase() : word.toLowerCase();
+            if (searchField.match(new RegExp(normalizedQuery)) && count < 50) {
+              const li = document.createElement('li');
+              li.classList.add('word-item');
+              li.innerHTML = `
+                <span class='dot ${entry.color}'></span>
+                <span class='text-content'><b>${word}</b> ${entry.meaning}</span>
+              `;
+              li.addEventListener('click', () => {
+                if (!excludedFilters.includes(entry.file)) {
+                  excludedFilters.push(entry.file);
+                  addFilterBox(entry.file);
+                  searchWord();
+                }
+              });
+              results.appendChild(li);
+              count++;
+            }
+          });
+        });
+      }
+
+      let searchByMeaning = false;
+
+      searchInput.addEventListener('beforeinput', function(e) {
+        if (e.inputType === 'insertText' && e.data === '*') {
+          e.preventDefault();
+          searchByMeaning = !searchByMeaning;
+          document.getElementById('ghost-asterisk').style.opacity = searchByMeaning ? '1' : '0.5';
+          searchWord();
+        }
+      });
+
+      if (searchInput) {
+        searchInput.addEventListener('input', function () {
+          const maxChars = getMaxChars();
+          if (this.value.length > maxChars) {
+            this.value = this.value.substring(0, maxChars);
           }
         });
-        results.appendChild(li);
-        count++;
       }
-    });
-  });
-}
 
-
-    let searchByMeaning = false;
-
-    searchInput.addEventListener('beforeinput', function(e) {
-      if (e.inputType === 'insertText' && e.data === '*') {
-        e.preventDefault();
-        searchByMeaning = !searchByMeaning;
-        document.getElementById('ghost-asterisk').style.opacity = searchByMeaning ? '1' : '0.5';
-        searchWord();
-      }
-    });
-    if (searchInput) {
-    searchInput.addEventListener('input', function () {
+      window.addEventListener('resize', function () {
         const maxChars = getMaxChars();
-        if (this.value.length > maxChars) {
-            this.value = this.value.substring(0, maxChars);
+        if (searchInput.value.length > maxChars) {
+          searchInput.value = searchInput.value.substring(0, maxChars);
         }
-    });
-}
-window.addEventListener('resize', function () {
-    const maxChars = getMaxChars();
-    if (searchInput.value.length > maxChars) {
-        searchInput.value = searchInput.value.substring(0, maxChars);
-    }
-});
-    let lastSelectionStart = 0;
-    let lastSelectionEnd = 0;
+      });
 
-    searchInput.addEventListener('beforeinput', function(e) {
-      lastSelectionStart = this.selectionStart;
-      lastSelectionEnd = this.selectionEnd;
+      let lastSelectionStart = 0;
+      let lastSelectionEnd = 0;
 
-      if (e.inputType === 'insertText') {
-        const newValue = 
-          this.value.slice(0, this.selectionStart) + 
-          e.data + 
-          this.value.slice(this.selectionEnd);
-        const processed = processInput(newValue);
+      searchInput.addEventListener('beforeinput', function(e) {
+        lastSelectionStart = this.selectionStart;
+        lastSelectionEnd = this.selectionEnd;
+
+        if (e.inputType === 'insertText') {
+          const newValue = 
+            this.value.slice(0, this.selectionStart) + 
+            e.data + 
+            this.value.slice(this.selectionEnd);
+          const processed = processInput(newValue);
+          measureSpan.textContent = processed;
+          const textWidth = measureSpan.offsetWidth;
+          const maxWidth = searchInput.clientWidth - 20;
+          if (textWidth > maxWidth) {
+            e.preventDefault();
+          }
+        }
+      });
+
+      searchInput.addEventListener('input', function(e) {
+        const processed = processInput(this.value);
         measureSpan.textContent = processed;
         const textWidth = measureSpan.offsetWidth;
         const maxWidth = searchInput.clientWidth - 20;
-        if (textWidth > maxWidth) {
+
+        if (textWidth <= maxWidth) {
+          lastValidValue = processed;
+          this.value = processed;
+        } else {
+          this.value = lastValidValue;
+          this.setSelectionRange(lastSelectionStart, lastSelectionEnd);
+        }
+        updateGhostAsterisk();
+        searchWord();
+      });
+
+      searchInput.addEventListener('beforeinput', function(e) {
+        lastSelectionStart = this.selectionStart;
+        lastSelectionEnd = this.selectionEnd;
+        
+        if (e.inputType === 'insertText' && e.data && e.data !== '*' && processInput(e.data) === '') {
+          e.preventDefault();
+          return;
+        }
+        
+        if (e.inputType === 'insertText') {
+          const newValue = 
+            this.value.slice(0, this.selectionStart) + 
+            e.data + 
+            this.value.slice(this.selectionEnd);
+          const processed = processInput(newValue);
+          measureSpan.textContent = processed;
+          const textWidth = measureSpan.offsetWidth;
+          const maxWidth = searchInput.clientWidth - 20;
+          if (textWidth > maxWidth) {
+            e.preventDefault();
+          }
+        }
+      });
+
+      searchInput.addEventListener('beforeinput', function(e) {
+        if (e.inputType === 'insertText' && e.data && e.data.length >= 2) {
           e.preventDefault();
         }
-      }
-    });
+      });
 
-    searchInput.addEventListener('input', function(e) {
-      const processed = processInput(this.value);
-      measureSpan.textContent = processed;
-      const textWidth = measureSpan.offsetWidth;
-      const maxWidth = searchInput.clientWidth - 20;
+      searchInput.addEventListener('paste', function (e) {
+        e.preventDefault();
+        let pastedText = (e.clipboardData || window.clipboardData).getData('text');
 
-      if (textWidth <= maxWidth) {
-        lastValidValue = processed;
-        this.value = processed;
-      } else {
-        this.value = lastValidValue;
-        this.setSelectionRange(lastSelectionStart, lastSelectionEnd);
-      }
-      updateGhostAsterisk();
-      searchWord();
-    });
-    searchInput.addEventListener('beforeinput', function(e) {
-      lastSelectionStart = this.selectionStart;
-      lastSelectionEnd = this.selectionEnd;
-      
-      if (e.inputType === 'insertText' && e.data && e.data !== '*' && processInput(e.data) === '') {
-           e.preventDefault();
-           return;
-      }
-      
-      if (e.inputType === 'insertText') {
-        const newValue = 
-          this.value.slice(0, this.selectionStart) + 
-          e.data + 
-          this.value.slice(this.selectionEnd);
-        const processed = processInput(newValue);
-        measureSpan.textContent = processed;
-        const textWidth = measureSpan.offsetWidth;
-        const maxWidth = searchInput.clientWidth - 20;
-        if (textWidth > maxWidth) {
-          e.preventDefault();
+        const maxChars = getMaxChars();
+        const startPos = this.selectionStart;
+        const endPos = this.selectionEnd;
+
+        let newValue = this.value.slice(0, startPos) + pastedText + this.value.slice(endPos);
+
+        if (newValue.length > maxChars) {
+          newValue = newValue.substring(0, maxChars);
         }
+
+        this.value = newValue;
+        lastValidValue = newValue;
+
+        const newCursorPos = Math.min(startPos + pastedText.length, maxChars);
+        this.setSelectionRange(newCursorPos, newCursorPos);
+
+        updateGhostAsterisk();
+        searchWord();
+      });
+
+      function getMaxChars() {
+        const baseCharWidth = 8;
+        const padding = 20;
+        return Math.floor((searchInput.clientWidth - padding) / baseCharWidth);
       }
-    });
-    searchInput.addEventListener('paste', function (e) {
-    e.preventDefault();
-    let pastedText = (e.clipboardData || window.clipboardData).getData('text');
 
-    const maxChars = getMaxChars(); // Dinamik karakter sınırı
-    const startPos = this.selectionStart;
-    const endPos = this.selectionEnd;
+      function addFilterBox(fileName) {
+        const container = document.getElementById('filter-boxes-container');
+        const displayName = fileName.split('.')[0];
 
-    let newValue = this.value.slice(0, startPos) + pastedText + this.value.slice(endPos);
+        const box = document.createElement('div');
+        box.classList.add('filter-box');
+        box.innerHTML = `<span>${displayName}</span><span class="material-symbols-outlined">close</span>`;
 
-    if (newValue.length > maxChars) {
-        newValue = newValue.substring(0, maxChars);
-    }
+        box.addEventListener('click', () => {
+          removeFilter(fileName, box);
+        });
 
-    this.value = newValue;
-    lastValidValue = newValue;
+        container.appendChild(box);
+      }
 
-    const newCursorPos = Math.min(startPos + pastedText.length, maxChars);
-    this.setSelectionRange(newCursorPos, newCursorPos);
+      function removeFilter(fileName, boxElement) {
+        boxElement.style.animation = "fadeOutScale 0.3s ease-in";
+        setTimeout(() => {
+          excludedFilters = excludedFilters.filter(f => f !== fileName);
+          boxElement.remove();
+          searchWord();
+        }, 300);
+      }
 
-    updateGhostAsterisk();
-    searchWord();
-});
-
-
-function getMaxChars() {
-    const baseCharWidth = 8; // Ortalama karakter genişliği (px)
-    const padding = 20; // Sağ ve sol padding payı
-    return Math.floor((searchInput.clientWidth - padding) / baseCharWidth);
-}
-
-
-    function addFilterBox(fileName) {
-  const container = document.getElementById('filter-boxes-container');
-  const displayName = fileName.split('.')[0];
-
-  const box = document.createElement('div');
-  box.classList.add('filter-box');
-  box.innerHTML = `<span>${displayName}</span><span class="material-symbols-outlined">close</span>`;
-
-  box.addEventListener('click', () => {
-    removeFilter(fileName, box);
-  });
-
-  container.appendChild(box);
-
-}
-function removeFilter(fileName, boxElement) {
-  boxElement.style.animation = "fadeOutScale 0.3s ease-in";
-  setTimeout(() => {
-    excludedFilters = excludedFilters.filter(f => f !== fileName);
-    boxElement.remove();
-    searchWord();
-  }, 300);
-}
-    loadDictionary();
-  </script>
-</body>
+      loadDictionary();
+    </script>
+  </body>
 </html>
